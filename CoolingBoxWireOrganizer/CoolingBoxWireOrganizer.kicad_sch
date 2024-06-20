@@ -3532,7 +3532,7 @@
 	)
 	(global_label "Spare.Analog5"
 		(shape input)
-		(at 119.38 166.37 90)
+		(at 127 166.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3542,7 +3542,7 @@
 		)
 		(uuid "0379341b-652d-47d4-9fbc-a06ff40f3a43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 149.8384 90)
+			(at 127 149.8384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3596,7 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital8"
+	(global_label "Spare.Digital8"
 		(shape input)
 		(at 283.21 91.44 0)
 		(fields_autoplaced yes)
@@ -3608,7 +3608,7 @@
 		)
 		(uuid "0e4fd902-e13d-4261-bb74-32572351fb1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.0441 91.44 0)
+			(at 299.5603 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +3620,7 @@
 	)
 	(global_label "Spare.Analog4"
 		(shape input)
-		(at 201.93 142.24 0)
+		(at 201.93 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3630,7 +3630,7 @@
 		)
 		(uuid "16b91418-d7b7-4635-bba1-1dbeadfe203f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.4616 142.24 0)
+			(at 218.4616 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3662,7 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital3"
+	(global_label "Spare.Digital3"
 		(shape input)
 		(at 270.51 86.36 180)
 		(fields_autoplaced yes)
@@ -3674,7 +3674,7 @@
 		)
 		(uuid "1d443e93-1461-4e36-b24e-ae6da28309f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.6759 86.36 0)
+			(at 254.1597 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3706,7 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital7"
+	(global_label "Spare.Digital7"
 		(shape input)
 		(at 270.51 91.44 180)
 		(fields_autoplaced yes)
@@ -3718,7 +3718,7 @@
 		)
 		(uuid "25c457f0-f96e-497e-8ab1-67653f910840")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.6759 91.44 0)
+			(at 254.1597 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,31 +3750,31 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital5"
+	(global_label "Spare.Digital5"
 		(shape input)
-		(at 215.9 110.49 180)
+		(at 227.33 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2914711e-77e9-4a12-b172-ce3641373471")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.0659 110.49 0)
+			(at 243.6803 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Spare.Analog3"
 		(shape input)
-		(at 189.23 144.78 180)
+		(at 189.23 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3784,7 +3784,7 @@
 		)
 		(uuid "2b6594b7-7a71-4f3f-adc8-27d669bcd8fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.6984 144.78 0)
+			(at 172.6984 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3794,7 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital4"
+	(global_label "Spare.Digital4"
 		(shape input)
 		(at 283.21 86.36 0)
 		(fields_autoplaced yes)
@@ -3806,7 +3806,7 @@
 		)
 		(uuid "2d094983-b114-4e1f-a88f-6dfcf982bc42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.0441 86.36 0)
+			(at 299.5603 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,29 +3838,29 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital4"
+	(global_label "Spare.Digital4"
 		(shape input)
-		(at 227.33 99.06 0)
+		(at 215.9 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "35bbeda3-28f9-4480-8c8d-de2242b23bf1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.1641 99.06 0)
+			(at 199.5497 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "Spare.Degital5"
+	(global_label "Spare.Digital5"
 		(shape input)
 		(at 270.51 88.9 180)
 		(fields_autoplaced yes)
@@ -3872,7 +3872,7 @@
 		)
 		(uuid "3796ac29-500c-43d1-8fdd-52c575c6a7be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.6759 88.9 0)
+			(at 254.1597 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,9 +3904,9 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital6"
+	(global_label "Spare.Digital6"
 		(shape input)
-		(at 228.6 110.49 0)
+		(at 227.33 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3916,7 +3916,7 @@
 		)
 		(uuid "45358b24-84a5-43cf-8317-821f45e6067b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.4341 110.49 0)
+			(at 243.6803 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +3928,7 @@
 	)
 	(global_label "Spare.Analog5"
 		(shape input)
-		(at 201.93 144.78 0)
+		(at 201.93 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3938,7 +3938,7 @@
 		)
 		(uuid "4b15750e-3f01-4ba7-9544-de642d4d17eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.4616 144.78 0)
+			(at 218.4616 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4036,7 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital1"
+	(global_label "Spare.Digital1"
 		(shape input)
 		(at 270.51 83.82 180)
 		(fields_autoplaced yes)
@@ -4048,7 +4048,7 @@
 		)
 		(uuid "6438e20d-0815-4074-8e36-db5cae9cb65a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.6759 83.82 0)
+			(at 254.1597 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4126,7 @@
 	)
 	(global_label "Spare.Analog1"
 		(shape input)
-		(at 102.87 166.37 90)
+		(at 116.84 166.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4136,7 +4136,7 @@
 		)
 		(uuid "7b1e8e62-94f8-4319-b13a-47b0673b6742")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 149.8384 90)
+			(at 116.84 149.8384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4236,7 @@
 	)
 	(global_label "Spare.Analog4"
 		(shape input)
-		(at 116.84 166.37 90)
+		(at 124.46 166.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4246,7 +4246,7 @@
 		)
 		(uuid "8526db90-ca8d-43f9-ae23-c85932bcefb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 149.8384 90)
+			(at 124.46 149.8384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,24 +4454,24 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital1"
+	(global_label "Spare.Digital1"
 		(shape input)
-		(at 214.63 96.52 180)
+		(at 228.6 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b64373cb-443f-4d44-a884-ded95953d52a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.7959 96.52 0)
+			(at 244.9503 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4500,7 +4500,7 @@
 	)
 	(global_label "Spare.Analog2"
 		(shape input)
-		(at 189.23 142.24 180)
+		(at 189.23 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4510,7 +4510,7 @@
 		)
 		(uuid "bb03b70c-0193-4235-a82b-2a252e534b5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.6984 142.24 0)
+			(at 172.6984 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +4542,7 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital2"
+	(global_label "Spare.Digital2"
 		(shape input)
 		(at 283.21 83.82 0)
 		(fields_autoplaced yes)
@@ -4554,7 +4554,7 @@
 		)
 		(uuid "c2d91c99-b01b-4264-b678-7d972473b623")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.0441 83.82 0)
+			(at 299.5603 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4566,7 @@
 	)
 	(global_label "Spare.Analog3"
 		(shape input)
-		(at 107.95 166.37 90)
+		(at 121.92 166.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4576,7 +4576,7 @@
 		)
 		(uuid "c6c28b57-7280-4872-bc19-e89133dd2d8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 149.8384 90)
+			(at 121.92 149.8384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,24 +4674,24 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital8"
+	(global_label "Spare.Digital8"
 		(shape input)
-		(at 228.6 113.03 0)
+		(at 214.63 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d6aab5b8-d3f0-4cda-932c-bd0cad4f94f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.4341 113.03 0)
+			(at 198.2797 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4718,9 +4718,9 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital7"
+	(global_label "Spare.Digital7"
 		(shape input)
-		(at 215.9 113.03 180)
+		(at 214.63 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4730,7 +4730,7 @@
 		)
 		(uuid "da73dac5-4f49-4287-a613-30dc5473f444")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.0659 113.03 0)
+			(at 198.2797 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,7 +4784,7 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital6"
+	(global_label "Spare.Digital6"
 		(shape input)
 		(at 283.21 88.9 0)
 		(fields_autoplaced yes)
@@ -4796,7 +4796,7 @@
 		)
 		(uuid "df9021e4-e023-400a-b6a9-a434613c71d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.0441 88.9 0)
+			(at 299.5603 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,9 +4828,9 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital3"
+	(global_label "Spare.Digital3"
 		(shape input)
-		(at 214.63 99.06 180)
+		(at 215.9 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4840,7 +4840,7 @@
 		)
 		(uuid "e86ecafc-fe1c-4919-8f17-b08cd79b3073")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.7959 99.06 0)
+			(at 199.5497 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +4852,7 @@
 	)
 	(global_label "Spare.Analog2"
 		(shape input)
-		(at 105.41 166.37 90)
+		(at 119.38 166.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4862,7 +4862,7 @@
 		)
 		(uuid "ea53b4aa-0a1a-4071-9fe2-85940267db66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.41 149.8384 90)
+			(at 119.38 149.8384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,9 +4916,9 @@
 			)
 		)
 	)
-	(global_label "Spare.Degital2"
+	(global_label "Spare.Digital2"
 		(shape input)
-		(at 227.33 96.52 0)
+		(at 228.6 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4928,7 +4928,7 @@
 		)
 		(uuid "fa53ce2d-2111-4743-ade1-e60c235d6bb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.1641 96.52 0)
+			(at 244.9503 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
