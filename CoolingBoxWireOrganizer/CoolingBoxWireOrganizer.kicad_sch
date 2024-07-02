@@ -2615,6 +2615,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -3174,6 +3295,12 @@
 		(color 0 0 0 0)
 		(uuid "06ac15b0-8502-4a64-990e-7848ccb28d0c")
 	)
+	(junction
+		(at 181.61 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "881eb7b5-54b9-45f2-9819-789ad879fb37")
+	)
 	(no_connect
 		(at 193.04 83.82)
 		(uuid "1ebb1a56-3cb0-42fc-a41f-55a43a17c05d")
@@ -3300,13 +3427,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 160.02) (xy 119.38 166.37)
+			(xy 133.35 102.87) (xy 161.29 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5864fccf-96da-4e73-b20a-12febfa65a4c")
+		(uuid "5f6b125a-3bd1-4907-ad63-3936b9ae42cd")
 	)
 	(wire
 		(pts
@@ -3347,26 +3474,6 @@
 			(type default)
 		)
 		(uuid "6e28e9fc-1fdb-47c3-8968-9ec7b1783f3d")
-	)
-	(wire
-		(pts
-			(xy 116.84 160.02) (xy 116.84 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e4af654-7cd3-4c56-be98-29637482c8d0")
-	)
-	(wire
-		(pts
-			(xy 121.92 160.02) (xy 121.92 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "771f655f-98be-4af5-bbed-2bca2f39ae41")
 	)
 	(wire
 		(pts
@@ -3450,6 +3557,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 102.87) (xy 200.66 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32a0e39-95d9-4cc2-bb52-cb61f21c323d")
+	)
+	(wire
+		(pts
 			(xy 231.14 24.13) (xy 241.3 24.13)
 		)
 		(stroke
@@ -3497,6 +3614,16 @@
 			(type default)
 		)
 		(uuid "dea8a6d7-1b9c-4286-95d9-07da81e2a35b")
+	)
+	(wire
+		(pts
+			(xy 181.61 105.41) (xy 181.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b892e7-3ac2-4fe4-a7a8-5c36b737cca4")
 	)
 	(wire
 		(pts
@@ -3577,6 +3704,28 @@
 			)
 		)
 		(uuid "cb3b4b4f-cf24-4cfa-a820-866487907ac5")
+	)
+	(global_label "Chiller.Alarm.Sig"
+		(shape input)
+		(at 181.61 107.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0193fd6c-9145-4c8c-8642-0c48d9a7756b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.61 126.7194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "Relay.Heater"
 		(shape input)
@@ -3842,6 +3991,28 @@
 			)
 		)
 	)
+	(global_label "Chiller.Temp.Sig"
+		(shape input)
+		(at 105.41 166.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40fab52d-a29f-46be-854e-18e57458eb68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 148.0844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MAX31855.CS_Sink"
 		(shape input)
 		(at 106.68 41.91 270)
@@ -3974,6 +4145,28 @@
 			)
 		)
 	)
+	(global_label "Spare.Analog1"
+		(shape input)
+		(at 102.87 166.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d9f326e-525f-4392-a18f-41b1d65f35ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 149.8384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Spare.Digital1"
 		(shape input)
 		(at 270.51 83.82 180)
@@ -4080,28 +4273,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Spare.Analog1"
-		(shape input)
-		(at 116.84 160.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b1e8e62-94f8-4319-b13a-47b0673b6742")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 143.4884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4370,28 +4541,6 @@
 			)
 		)
 	)
-	(global_label "Chiller.Alarm.Sig"
-		(shape input)
-		(at 170.18 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b4fa73ae-4bb1-4bd1-a6c4-bea3060a9698")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4106 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Spare.Digital1"
 		(shape input)
 		(at 228.6 110.49 0)
@@ -4504,7 +4653,7 @@
 	)
 	(global_label "Spare.Analog3"
 		(shape input)
-		(at 121.92 160.02 90)
+		(at 119.38 166.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4514,7 +4663,7 @@
 		)
 		(uuid "c6c28b57-7280-4872-bc19-e89133dd2d8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 143.4884 90)
+			(at 119.38 149.8384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,7 +4895,7 @@
 	)
 	(global_label "Spare.Analog2"
 		(shape input)
-		(at 119.38 160.02 90)
+		(at 116.84 166.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4756,7 +4905,7 @@
 		)
 		(uuid "ea53b4aa-0a1a-4071-9fe2-85940267db66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 143.4884 90)
+			(at 116.84 149.8384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,6 +4950,28 @@
 		(uuid "f46c8b4d-447d-436c-9141-2d26904e753c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.9988 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Chiller.Temp.Sig"
+		(shape input)
+		(at 161.29 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f52d8204-c6c4-4c5b-ab78-960b85d6de97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.0044 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,6 +5307,87 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at 166.37 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d234d0c-41c0-424a-9e81-2774515fc56c")
+		(property "Reference" "J16"
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x02_Odd_Even"
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "purpous" "NTC"
+			(at 167.132 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b6989b1a-639a-4409-ab9f-e635ad996b2e")
+		)
+		(pin "1"
+			(uuid "28daa0ec-d9f5-42ba-b8cc-caa2ac87faaf")
+		)
+		(pin "4"
+			(uuid "7b711237-b983-4c28-a93b-0d7c786e7b62")
+		)
+		(pin "2"
+			(uuid "8e76224f-a8e5-4551-a9e5-8d4591ab3e66")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -5795,16 +6047,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 120.65 0)
+		(at 200.66 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32a1df4c-5020-46fc-9e6e-34ca2b5a1a0e")
+		(uuid "32b28afd-8330-4b38-8346-d11db38b1afe")
 		(property "Reference" "#PWR013"
-			(at 170.18 127 0)
+			(at 200.66 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +6065,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 125.73 0)
+			(at 200.66 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +6073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 120.65 0)
+			(at 200.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +6082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 120.65 0)
+			(at 200.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +6091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 120.65 0)
+			(at 200.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +6100,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "078f1ab2-7eab-4108-a698-d2d7581c49c6")
+			(uuid "01e624f5-849a-4328-9a78-aa0bbe03d9f1")
 		)
 		(instances
 			(project "CoolingBoxWireOrganizer"
@@ -5986,6 +6238,72 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fbae600-e0d8-44f9-bd3e-2e0a74ccf763")
+		(property "Reference" "#PWR030"
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a9e4859-0e5b-441c-a91e-671ceecdeabc")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6490,6 +6808,75 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64dfd7a9-980b-4cc4-bd57-594f6f35ab02")
+		(property "Reference" "R2"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "11000"
+			(at 177.8 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 177.8 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3948dd07-47e5-4388-bc1d-a46ff00e9aff")
+		)
+		(pin "2"
+			(uuid "586a83f4-b054-415b-bc74-b4a62ea67f18")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7338,6 +7725,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 196.85 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cd04b2f-b527-415c-80d3-d81d94ad8a31")
+		(property "Reference" "#PWR029"
+			(at 196.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98259843-5247-4d4a-92dc-608543f7fc27")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
 		(at 104.14 36.83 270)
 		(unit 1)
@@ -7576,83 +8030,6 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 175.26 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b22bec3a-d05c-4f88-a05c-1ec627992fa6")
-		(property "Reference" "J16"
-			(at 173.9899 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 176.5299 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 175.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 175.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "purpous" "chiller alarm"
-			(at 178.308 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c55727e3-29b3-433f-b03b-dea4e5743a26")
-		)
-		(pin "1"
-			(uuid "d8d989a6-03dd-4f4d-b5b2-932bc2ca8b57")
-		)
-		(instances
-			(project "CoolingBoxWireOrganizer"
-				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -8172,6 +8549,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 185.42 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd5a778-3708-4928-adbb-f2349c9f58dc")
+		(property "Reference" "R1"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 185.42 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.42 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06058c1e-1b49-4564-974a-d083b5b36f1f")
+		)
+		(pin "2"
+			(uuid "a1d0c1bc-77aa-4fa7-8476-bbefea32ad55")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 24.13 123.19 270)
 		(unit 1)
@@ -8311,6 +8757,75 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e663ca70-5625-48cd-82dc-12d9c8410a94")
+		(property "Reference" "R3"
+			(at 193.04 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3900"
+			(at 193.04 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 193.04 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c08a508-a776-4cbd-ba0e-718ae7b22f8d")
+		)
+		(pin "2"
+			(uuid "f845ae08-0c69-4173-bcf8-12a714aeab3a")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R3")
 					(unit 1)
 				)
 			)
