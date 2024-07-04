@@ -3299,7 +3299,7 @@
 		(at 181.61 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "881eb7b5-54b9-45f2-9819-789ad879fb37")
+		(uuid "38121543-3ab5-4bca-8036-f22187354a86")
 	)
 	(no_connect
 		(at 193.04 83.82)
@@ -6832,7 +6832,7 @@
 				)
 			)
 		)
-		(property "Value" "11000"
+		(property "Value" "10000"
 			(at 177.8 101.6 90)
 			(effects
 				(font
@@ -7726,7 +7726,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 105.41 0)
+		(at 189.23 105.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7736,7 +7736,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cd04b2f-b527-415c-80d3-d81d94ad8a31")
 		(property "Reference" "#PWR029"
-			(at 196.85 111.76 0)
+			(at 189.23 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,7 +7745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 110.49 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +7753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 105.41 0)
+			(at 189.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,7 +7762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 105.41 0)
+			(at 189.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,7 +7771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 105.41 0)
+			(at 189.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,75 +8549,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 185.42 105.41 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddd5a778-3708-4928-adbb-f2349c9f58dc")
-		(property "Reference" "R1"
-			(at 185.42 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 185.42 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 185.42 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 185.42 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06058c1e-1b49-4564-974a-d083b5b36f1f")
-		)
-		(pin "2"
-			(uuid "a1d0c1bc-77aa-4fa7-8476-bbefea32ad55")
-		)
-		(instances
-			(project "CoolingBoxWireOrganizer"
-				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 24.13 123.19 270)
 		(unit 1)
@@ -8764,7 +8695,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 105.41 270)
+		(at 185.42 105.41 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8774,7 +8705,7 @@
 		(fields_autoplaced yes)
 		(uuid "e663ca70-5625-48cd-82dc-12d9c8410a94")
 		(property "Reference" "R3"
-			(at 193.04 99.06 90)
+			(at 185.42 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +8713,7 @@
 			)
 		)
 		(property "Value" "3900"
-			(at 193.04 101.6 90)
+			(at 185.42 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +8721,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 193.04 107.188 90)
+			(at 185.42 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +8730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 105.41 0)
+			(at 185.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +8739,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 193.04 105.41 0)
+			(at 185.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
