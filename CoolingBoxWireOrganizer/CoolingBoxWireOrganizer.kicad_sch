@@ -3793,6 +3793,28 @@
 			)
 		)
 	)
+	(global_label "Reset"
+		(shape input)
+		(at 228.6 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11f157b1-a162-49d1-878f-bb59223aca09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.7862 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MAX31855.CS_Chiller"
 		(shape input)
 		(at 95.25 86.36 0)
@@ -4541,28 +4563,6 @@
 			)
 		)
 	)
-	(global_label "Spare.Digital1"
-		(shape input)
-		(at 228.6 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b64373cb-443f-4d44-a884-ded95953d52a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.9503 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HTC.Read"
 		(shape input)
 		(at 100.33 166.37 90)
@@ -4735,6 +4735,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Reset"
+		(shape input)
+		(at 67.31 166.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0d48a71-953e-4c66-88d0-30ee7c3c126e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 158.1838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
