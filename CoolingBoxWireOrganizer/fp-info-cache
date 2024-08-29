@@ -1,4 +1,4 @@
-23150549837773954
+23152274630387950
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94744,3 +94744,10 @@ G3VM-41AR
 0
 4
 4
+my_library
+PTSM 0,57-2,5-V THR WH R44
+1814621
+Connector
+0
+16
+16
