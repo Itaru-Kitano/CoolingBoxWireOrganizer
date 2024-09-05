@@ -2958,6 +2958,470 @@
 				)
 			)
 		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L_Ferrite"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L_Ferrite"
+				(at 2.794 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor with ferrite core"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Ferrite_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.794) (xy 1.016 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.778) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.762) (xy 1.016 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.254) (xy 1.016 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.27) (xy 1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.286) (xy 1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.286) (xy 1.524 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.778) (xy 1.524 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.794) (xy 1.524 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Ferrite_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -5181,16 +5645,112 @@
 		(uuid "06ac15b0-8502-4a64-990e-7848ccb28d0c")
 	)
 	(junction
+		(at 306.07 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07bdabff-2186-43ea-acc1-f193aef7e469")
+	)
+	(junction
+		(at 269.24 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "160213ff-e744-4304-8580-20c7336fde00")
+	)
+	(junction
+		(at 306.07 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fce450e-77fe-4208-b848-84188758c56a")
+	)
+	(junction
+		(at 306.07 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2371ba04-e5e2-448a-b99d-13dd548722a2")
+	)
+	(junction
+		(at 181.61 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c4506b5-a8ba-4780-9b5d-f381d6b0b277")
+	)
+	(junction
+		(at 143.51 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d2221d6-673e-4667-9724-9b1a5017ff46")
+	)
+	(junction
+		(at 180.34 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3932c717-d02f-498d-af16-4b91b70ac606")
+	)
+	(junction
+		(at 269.24 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43dbd74a-d645-4e03-be8a-d12043165d04")
+	)
+	(junction
+		(at 269.24 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65d7dc41-770e-4cd0-8bd7-94aebf311658")
+	)
+	(junction
+		(at 269.24 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65d99d23-dda3-40f8-92a8-a34162135397")
+	)
+	(junction
+		(at 306.07 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72c07046-468d-4be0-9b2a-d7365f787c01")
+	)
+	(junction
 		(at 149.86 -3.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "740f1fe9-7544-4ff5-a054-b101273c7ca6")
 	)
 	(junction
+		(at 180.34 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "778eb13c-41d1-47bf-9b51-2163a46c9faf")
+	)
+	(junction
+		(at 144.78 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79abb3ff-11db-4110-830c-a79484063a40")
+	)
+	(junction
+		(at 144.78 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97af08be-3665-42ce-a633-e6339b145bed")
+	)
+	(junction
+		(at 143.51 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1c63ce3-b24b-4b07-b28a-bfa0c66d34c3")
+	)
+	(junction
 		(at -77.47 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d013795c-2e3e-47eb-aac2-3805a560a031")
+	)
+	(junction
+		(at 181.61 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4f46a8e-82a0-4e33-aee4-6bc4553b4702")
 	)
 	(junction
 		(at 149.86 3.81)
@@ -5204,6 +5764,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 72.39) (xy 269.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ec1b24-3ef0-4425-b5d6-8e39ec8f8759")
+	)
+	(wire
+		(pts
+			(xy 148.59 72.39) (xy 144.78 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040666c8-212b-4a25-bffd-83b65f16a560")
+	)
+	(wire
+		(pts
 			(xy 153.67 170.18) (xy 171.45 170.18)
 		)
 		(stroke
@@ -5211,6 +5791,16 @@
 			(type default)
 		)
 		(uuid "08016da1-0ea7-4412-a2f9-222be06aa44d")
+	)
+	(wire
+		(pts
+			(xy 273.05 72.39) (xy 269.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08041804-ad55-4147-8f7e-d08321b3aa25")
 	)
 	(wire
 		(pts
@@ -5224,6 +5814,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 31.75) (xy 143.51 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e32736-582e-4399-976a-2137cb9e8eb1")
+	)
+	(wire
+		(pts
 			(xy 25.4 58.42) (xy 20.32 58.42)
 		)
 		(stroke
@@ -5234,6 +5834,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 31.75) (xy 143.51 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8d4223-4362-48de-b615-d89bfac90be6")
+	)
+	(wire
+		(pts
 			(xy 273.05 -6.35) (xy 280.67 -6.35)
 		)
 		(stroke
@@ -5241,6 +5851,16 @@
 			(type default)
 		)
 		(uuid "20327e24-978d-4c1d-922c-4219adbb5e19")
+	)
+	(wire
+		(pts
+			(xy 180.34 38.1) (xy 167.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236e4fe6-3aef-400a-a434-5da251221b9c")
 	)
 	(wire
 		(pts
@@ -5264,6 +5884,46 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 73.66) (xy 148.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eab22d7-9d21-4750-9e98-9690be7fd795")
+	)
+	(wire
+		(pts
+			(xy 306.07 36.83) (xy 293.37 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320507de-fae5-4313-8b2a-646e3506d445")
+	)
+	(wire
+		(pts
+			(xy 306.07 78.74) (xy 293.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d1ff76-14f2-436d-b577-0d1fc67df789")
+	)
+	(wire
+		(pts
+			(xy 138.43 80.01) (xy 144.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e4b155-c14b-48e5-a9fe-481f7c18e243")
+	)
+	(wire
+		(pts
 			(xy 31.75 181.61) (xy 31.75 184.15)
 		)
 		(stroke
@@ -5271,6 +5931,16 @@
 			(type default)
 		)
 		(uuid "368a64b0-0b23-4620-8fe5-1606c14f6acf")
+	)
+	(wire
+		(pts
+			(xy 137.16 38.1) (xy 137.16 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37060317-a4de-4529-807d-5d8688d17b9e")
 	)
 	(wire
 		(pts
@@ -5284,6 +5954,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 73.66) (xy 262.89 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3838d0e1-d2d1-4a3b-a527-684f6bc3116b")
+	)
+	(wire
+		(pts
+			(xy 306.07 71.12) (xy 293.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fcf2c8-b94b-45db-9aee-41bdcc065a3b")
+	)
+	(wire
+		(pts
 			(xy 36.83 78.74) (xy 57.15 78.74)
 		)
 		(stroke
@@ -5294,6 +5984,26 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 73.66) (xy 273.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9c125d-2479-41e0-af94-8b4304f62cb4")
+	)
+	(wire
+		(pts
+			(xy 306.07 29.21) (xy 317.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dca5806-0033-4344-8736-34579ef6f539")
+	)
+	(wire
+		(pts
 			(xy 153.67 165.1) (xy 168.91 165.1)
 		)
 		(stroke
@@ -5301,6 +6011,26 @@
 			(type default)
 		)
 		(uuid "3f01e8de-2697-4b4a-8b9a-e260604a2aca")
+	)
+	(wire
+		(pts
+			(xy 181.61 71.12) (xy 193.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e46f8c-3f0d-4087-b2a5-fd709a5f30dc")
+	)
+	(wire
+		(pts
+			(xy 180.34 38.1) (xy 191.77 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b1585c-1420-47e0-8b43-c4d583eed743")
 	)
 	(wire
 		(pts
@@ -5344,6 +6074,26 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 78.74) (xy 273.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b1f384-1500-448d-bf73-147e8df2e57f")
+	)
+	(wire
+		(pts
+			(xy 262.89 78.74) (xy 262.89 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b1fdac-eb5b-4bd9-add9-aac408823141")
+	)
+	(wire
+		(pts
 			(xy 105.41 172.72) (xy 120.65 172.72)
 		)
 		(stroke
@@ -5374,6 +6124,36 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 33.02) (xy 137.16 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5821bada-73e1-4499-9f34-5fd0c029e86c")
+	)
+	(wire
+		(pts
+			(xy 181.61 78.74) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b7e92c-677a-4cb5-9afd-4c66080e3a62")
+	)
+	(wire
+		(pts
+			(xy 147.32 39.37) (xy 143.51 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c66d48a-760b-483e-ac43-2a662f83553d")
+	)
+	(wire
+		(pts
 			(xy 15.24 97.79) (xy 43.18 97.79)
 		)
 		(stroke
@@ -5381,6 +6161,16 @@
 			(type default)
 		)
 		(uuid "5f6b125a-3bd1-4907-ad63-3936b9ae42cd")
+	)
+	(wire
+		(pts
+			(xy 306.07 78.74) (xy 317.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631121ea-c99b-4978-a6cc-6f42dcc4a223")
 	)
 	(wire
 		(pts
@@ -5414,6 +6204,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 30.48) (xy 167.64 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67687799-849d-4b2f-a8f6-8b038c683afa")
+	)
+	(wire
+		(pts
 			(xy 283.21 160.02) (xy 283.21 162.56)
 		)
 		(stroke
@@ -5434,6 +6234,26 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 38.1) (xy 269.24 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753bf348-6b1a-4df8-ab8f-bb632adae669")
+	)
+	(wire
+		(pts
+			(xy 262.89 38.1) (xy 269.24 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778c2d4f-0e9c-44e4-9ad3-45af2736fb64")
+	)
+	(wire
+		(pts
 			(xy 152.4 119.38) (xy 173.99 119.38)
 		)
 		(stroke
@@ -5451,6 +6271,26 @@
 			(type default)
 		)
 		(uuid "7ba29468-acdc-45f0-b1d8-f359efd50d4f")
+	)
+	(wire
+		(pts
+			(xy 262.89 36.83) (xy 262.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee91d39-7dce-4eb3-a943-ea88d8b56d23")
+	)
+	(wire
+		(pts
+			(xy 181.61 78.74) (xy 193.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c6445d-ebb2-4266-a4a1-f393141f8fa2")
 	)
 	(wire
 		(pts
@@ -5494,6 +6334,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 31.75) (xy 273.05 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92198e8a-9396-4d10-90e1-cd444387c186")
+	)
+	(wire
+		(pts
 			(xy 105.41 177.8) (xy 120.65 177.8)
 		)
 		(stroke
@@ -5501,6 +6351,26 @@
 			(type default)
 		)
 		(uuid "94e22b80-2aec-4fcd-9150-8df55b9442e9")
+	)
+	(wire
+		(pts
+			(xy 138.43 73.66) (xy 138.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981ffc16-ac14-4cc8-b0ad-1d56a28d5c6b")
+	)
+	(wire
+		(pts
+			(xy 137.16 39.37) (xy 143.51 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5efa0e-78c7-45a7-831e-b91a6f6666e7")
 	)
 	(wire
 		(pts
@@ -5514,6 +6384,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 29.21) (xy 293.37 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba8e952-de1e-451a-a408-331d7bd314da")
+	)
+	(wire
+		(pts
 			(xy 82.55 85.09) (xy 87.63 85.09)
 		)
 		(stroke
@@ -5521,6 +6401,76 @@
 			(type default)
 		)
 		(uuid "abd1378d-e1b8-46e2-88a4-e67ab19c981e")
+	)
+	(wire
+		(pts
+			(xy 148.59 80.01) (xy 144.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9d4b84-954e-4898-972f-db12a7c030ef")
+	)
+	(wire
+		(pts
+			(xy 273.05 30.48) (xy 269.24 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9e94f7-3c1c-4c75-873b-819e46db73dd")
+	)
+	(wire
+		(pts
+			(xy 273.05 36.83) (xy 273.05 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05738c8-eec5-47fb-9648-821500cf853f")
+	)
+	(wire
+		(pts
+			(xy 262.89 30.48) (xy 269.24 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6192f69-3085-4954-aa56-7bbff7101c0c")
+	)
+	(wire
+		(pts
+			(xy 262.89 80.01) (xy 269.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71f4ddd-d9af-4c8d-be99-6580856703d1")
+	)
+	(wire
+		(pts
+			(xy 262.89 31.75) (xy 262.89 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a33333-7531-4b7a-a36d-da53c1104de9")
+	)
+	(wire
+		(pts
+			(xy 306.07 71.12) (xy 317.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde95f58-d3f7-45ea-a739-4a6632bb9f75")
 	)
 	(wire
 		(pts
@@ -5584,6 +6534,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 78.74) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f4e62d-a645-499b-b924-63d854fc0704")
+	)
+	(wire
+		(pts
+			(xy 138.43 72.39) (xy 144.78 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bb1cc1-2c64-4fa3-829d-2205a90a2f59")
+	)
+	(wire
+		(pts
 			(xy 29.21 180.34) (xy 29.21 184.15)
 		)
 		(stroke
@@ -5624,6 +6594,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 78.74) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df43bb77-0b3d-498e-85b9-0071315e761b")
+	)
+	(wire
+		(pts
 			(xy 104.14 121.92) (xy 119.38 121.92)
 		)
 		(stroke
@@ -5631,6 +6611,16 @@
 			(type default)
 		)
 		(uuid "e406ee94-1a61-41e2-9c44-7ea0b397d680")
+	)
+	(wire
+		(pts
+			(xy 180.34 30.48) (xy 191.77 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60ec338-f77f-4d81-aab0-e79336126b25")
 	)
 	(wire
 		(pts
@@ -5654,6 +6644,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 71.12) (xy 168.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee17e938-b6ad-49a4-8801-e8ccc0da31a5")
+	)
+	(wire
+		(pts
+			(xy 273.05 80.01) (xy 269.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a2f1c0-8e38-4494-b8d7-14f64723c247")
+	)
+	(wire
+		(pts
 			(xy 19.05 114.3) (xy 26.67 114.3)
 		)
 		(stroke
@@ -5661,6 +6671,36 @@
 			(type default)
 		)
 		(uuid "f79466f1-7a9a-4688-928d-9fb3c7fb6756")
+	)
+	(wire
+		(pts
+			(xy 306.07 36.83) (xy 317.5 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80dab1d-d67e-4ce6-a604-ea312a927a94")
+	)
+	(wire
+		(pts
+			(xy 147.32 38.1) (xy 147.32 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a0587e-74dd-4272-b4c1-f42878918cec")
+	)
+	(wire
+		(pts
+			(xy 147.32 33.02) (xy 147.32 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb41dd4-5ba2-4e42-97f5-5b1d5b8666ac")
 	)
 	(wire
 		(pts
@@ -5674,7 +6714,7 @@
 	)
 	(global_label "MAX_Vin"
 		(shape input)
-		(at 139.7 25.4 180)
+		(at 157.48 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5684,7 +6724,7 @@
 		)
 		(uuid "057f187c-15b4-4cf4-810b-164c8a2932d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1553 25.4 0)
+			(at 146.9353 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,7 +6780,7 @@
 	)
 	(global_label "case thermocouple minus"
 		(shape input)
-		(at 16.51 237.49 180)
+		(at 198.12 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5750,7 +6790,7 @@
 		)
 		(uuid "091648c6-fa7c-424c-aac1-97eb27f79d61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -11.2701 237.49 0)
+			(at 170.3399 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +6824,7 @@
 	)
 	(global_label "case thermocouple plus"
 		(shape input)
-		(at 41.91 234.95 0)
+		(at 223.52 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5794,51 +6834,7 @@
 		)
 		(uuid "0ca29fe5-8eeb-4e6b-9927-a3db0f13e81a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.0572 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MAX_GND"
-		(shape input)
-		(at 139.7 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0e3510ef-2885-4e8c-8eb6-50a58f7e1d7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.2728 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MAX31855.CLK"
-		(shape input)
-		(at 149.86 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "11c0bfb2-0533-49c7-b26f-fa3cf019f63e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.8151 72.39 0)
+			(at 249.6672 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,6 +6866,28 @@
 			)
 		)
 	)
+	(global_label "case thermocouple plus"
+		(shape input)
+		(at 255.27 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a1fba43-bfd6-4eae-a402-374d314da602")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.1228 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Spare.Digital3"
 		(shape input)
 		(at 261.62 121.92 180)
@@ -5892,6 +6910,28 @@
 			)
 		)
 	)
+	(global_label "MAX_GND"
+		(shape input)
+		(at 158.75 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e1a8d99-5b0a-4df8-bf8c-70b5cb467bec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.3228 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "to peltier intlk 2"
 		(shape input)
 		(at 52.07 140.97 0)
@@ -5905,50 +6945,6 @@
 		(uuid "20891d0d-e3c7-4745-8cc9-226da88f30b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 71.3231 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MAX_GND"
-		(shape input)
-		(at 222.25 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23bf0c8d-8fea-428e-8d81-513fc1583412")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.8228 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MAX_GND"
-		(shape input)
-		(at 222.25 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24f9778d-9cfe-4903-8327-ae0c59517d11")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.8228 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +7088,7 @@
 	)
 	(global_label "chiller thermocouple plus"
 		(shape input)
-		(at 41.91 245.11 0)
+		(at 223.52 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6102,7 +7098,7 @@
 		)
 		(uuid "2d19e446-12c4-4225-9da5-e58ea6ac5cf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.7505 245.11 0)
+			(at 251.3605 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,7 +7132,7 @@
 	)
 	(global_label "MAX31855.Do"
 		(shape input)
-		(at 149.86 33.02 0)
+		(at 167.64 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6146,7 +7142,7 @@
 		)
 		(uuid "2d477b55-49a0-4d0f-a1e7-6cb2478b76c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.666 33.02 0)
+			(at 183.446 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +7154,7 @@
 	)
 	(global_label "chiller thermocouple minus"
 		(shape input)
-		(at 41.91 247.65 0)
+		(at 223.52 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6168,7 +7164,7 @@
 		)
 		(uuid "3342df2e-fa14-46c8-9763-580c081ce8c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3834 247.65 0)
+			(at 252.9934 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6224,7 +7220,7 @@
 	)
 	(global_label "head thermocouple plus"
 		(shape input)
-		(at 16.51 229.87 180)
+		(at 198.12 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6234,7 +7230,7 @@
 		)
 		(uuid "36844dc1-a689-4679-afe3-b4917014b3dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -9.8185 229.87 0)
+			(at 171.7915 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,9 +7306,9 @@
 			)
 		)
 	)
-	(global_label "MAX31855.CS_Sink"
+	(global_label "MAX31855.Do"
 		(shape input)
-		(at 232.41 38.1 0)
+		(at 293.37 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6320,9 +7316,9 @@
 			)
 			(justify left)
 		)
-		(uuid "3c7f1cb5-f106-4c03-b952-1af0874050ca")
+		(uuid "38b48e0f-4912-4291-9f3a-fc8fce4ef36e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.2355 38.1 0)
+			(at 309.176 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,9 +7328,31 @@
 			)
 		)
 	)
+	(global_label "head thermocouple plus"
+		(shape input)
+		(at 130.81 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39c79b79-7387-490b-af14-d27fc311cbd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.4815 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MAX_GND"
 		(shape input)
-		(at 139.7 45.72 0)
+		(at 157.48 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6344,7 +7362,7 @@
 		)
 		(uuid "40b5aa7a-cadb-48ba-9d09-9eecd359d6c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.2728 45.72 0)
+			(at 169.0528 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,24 +7504,24 @@
 			)
 		)
 	)
-	(global_label "case thermocouple minus"
+	(global_label "MAX_GND"
 		(shape input)
-		(at 212.09 80.01 180)
+		(at 283.21 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "4c88af1c-cc02-4a47-a8d4-74bbf3be29d1")
+		(uuid "4c548048-ccd1-44a8-a6bd-6b7e8cb7a8c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.3099 80.01 0)
+			(at 294.7828 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6526,6 +7544,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "sink thermocouple plus"
+		(shape input)
+		(at 255.27 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52d4c9e7-84dc-4909-acf9-cf9a7c1cb050")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.6671 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6618,28 +7658,6 @@
 			)
 		)
 	)
-	(global_label "MAX31855.Do"
-		(shape input)
-		(at 232.41 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5c6d27ae-5f21-4e7c-ac9a-111fee05d2ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.216 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Spare.Analog1"
 		(shape input)
 		(at 59.69 184.15 90)
@@ -6664,7 +7682,7 @@
 	)
 	(global_label "case thermocouple minus"
 		(shape input)
-		(at 41.91 237.49 0)
+		(at 223.52 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6674,78 +7692,12 @@
 		)
 		(uuid "5e55a547-386a-4654-b5b7-a9404e132472")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.6901 237.49 0)
+			(at 251.3001 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "sink thermocouple plus"
-		(shape input)
-		(at 212.09 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e5cbf78-e29d-477e-9f0c-2075d1f0061f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.4871 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "head thermocouple minus"
-		(shape input)
-		(at 129.54 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "60da57fb-bf56-4090-8d36-be3ca0d01ce3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.5786 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MAX_Vin"
-		(shape input)
-		(at 139.7 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "637b5ddf-1218-42c4-923d-d1c3193eae3f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1553 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6838,31 +7790,9 @@
 			)
 		)
 	)
-	(global_label "MAX31855.CS_Case"
-		(shape input)
-		(at 232.41 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "69962a4b-0a3d-4c7e-bc8f-9225e31b8dbe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.7798 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "head thermocouple minus"
 		(shape input)
-		(at 16.51 232.41 180)
+		(at 198.12 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6872,7 +7802,7 @@
 		)
 		(uuid "69e7ce6b-5e8b-446b-acd3-10932d1dbfc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -11.4514 232.41 0)
+			(at 170.1586 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,9 +7834,75 @@
 			)
 		)
 	)
+	(global_label "MAX31855.CLK"
+		(shape input)
+		(at 325.12 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c499f63-50ba-405a-b2c2-00c0e4672512")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 342.0751 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "sink thermocouple minus"
+		(shape input)
+		(at 255.27 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ce05c06-0408-4fc6-8c1e-b85a3395473e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.0342 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAX31855.Do"
+		(shape input)
+		(at 168.91 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71f4c495-0d94-46d6-8170-720076163935")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.716 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "sink thermocouple plus"
 		(shape input)
-		(at 41.91 240.03 0)
+		(at 223.52 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6916,7 +7912,7 @@
 		)
 		(uuid "75482c74-ca77-4271-84fe-241a09555e2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.5129 240.03 0)
+			(at 249.1229 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,28 +8010,6 @@
 			)
 		)
 	)
-	(global_label "head thermocouple plus"
-		(shape input)
-		(at 129.54 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7fef6637-3486-4862-b6f6-ca7ba3b35a07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.2115 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Relay.Unlock"
 		(shape input)
 		(at 29.21 26.67 270)
@@ -7049,6 +8023,28 @@
 		(uuid "8054b38e-efe7-43b2-802d-e18f5998a73f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.21 41.8108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "head thermocouple minus"
+		(shape input)
+		(at 130.81 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "808196d3-eeee-4152-ad29-30b2d08431d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.8486 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,31 +8076,9 @@
 			)
 		)
 	)
-	(global_label "MAX31855.CLK"
-		(shape input)
-		(at 232.41 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8cbd79e5-5473-4c34-bb66-41271aabd54f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.3651 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "sink thermocouple minus"
 		(shape input)
-		(at 16.51 242.57 180)
+		(at 198.12 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7114,12 +8088,34 @@
 		)
 		(uuid "8d745e52-c5f2-44bd-beaa-81c1e36b795c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -10.7258 242.57 0)
+			(at 170.8842 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAX31855.Do"
+		(shape input)
+		(at 293.37 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e4ae74d-3e59-43cf-b1c0-678dc1cc22e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.176 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7142,6 +8138,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAX31855.CLK"
+		(shape input)
+		(at 325.12 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90f087c1-bff3-4f95-b78f-7d60d26c7490")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 342.0751 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7170,7 +8188,7 @@
 	)
 	(global_label "sink thermocouple plus"
 		(shape input)
-		(at 16.51 240.03 180)
+		(at 198.12 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7180,7 +8198,7 @@
 		)
 		(uuid "92cd0803-3fd7-4a92-acb6-d4f7ea79b57b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -9.0929 240.03 0)
+			(at 172.5171 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,6 +8252,28 @@
 			)
 		)
 	)
+	(global_label "MAX31855.CS_Case"
+		(shape input)
+		(at 325.12 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96b00ca8-4f4c-49d3-8345-942d0a19441e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 346.4898 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "to LV intlk 1"
 		(shape input)
 		(at 152.4 124.46 0)
@@ -7256,9 +8296,9 @@
 			)
 		)
 	)
-	(global_label "case thermocouple plus"
+	(global_label "MAX_Vin"
 		(shape input)
-		(at 212.09 74.93 180)
+		(at 283.21 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7266,9 +8306,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9b75f0e4-1785-4dbf-a40e-7c4d9273226d")
+		(uuid "99d263f6-d2f9-472d-b69a-e6629f0e0d64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.9428 74.93 0)
+			(at 272.6653 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +8320,7 @@
 	)
 	(global_label "head thermocouple plus"
 		(shape input)
-		(at 41.91 229.87 0)
+		(at 223.52 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7290,34 +8330,12 @@
 		)
 		(uuid "9c0fa752-4522-4b1a-9bcc-ca3f16d09680")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.2385 229.87 0)
+			(at 249.8485 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "sink thermocouple minus"
-		(shape input)
-		(at 212.09 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9d3db04f-7de2-478c-b57f-5eb4a8e33733")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.8542 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7346,7 +8364,7 @@
 	)
 	(global_label "head thermocouple minus"
 		(shape input)
-		(at 41.91 232.41 0)
+		(at 223.52 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7356,7 +8374,29 @@
 		)
 		(uuid "9e848198-a68a-464e-8813-ab758fcc418c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.8714 232.41 0)
+			(at 251.4814 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAX31855.CS_Head"
+		(shape input)
+		(at 200.66 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f8166f9-7fe8-4f73-8a50-6fd076e3536e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.2112 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7384,6 +8424,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAX_GND"
+		(shape input)
+		(at 283.21 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a530ed90-5103-475a-b004-f801e1d60fb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 294.7828 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7454,9 +8516,9 @@
 			)
 		)
 	)
-	(global_label "MAX_Vin"
+	(global_label "case thermocouple minus"
 		(shape input)
-		(at 222.25 67.31 180)
+		(at 255.27 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7464,31 +8526,9 @@
 			)
 			(justify right)
 		)
-		(uuid "aa9df450-3c7f-4df7-890b-b9b9f1fc4d22")
+		(uuid "ae572210-e9f8-4f97-bd8e-f92c774dfadc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.7053 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MAX_Vin"
-		(shape input)
-		(at 222.25 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ab7f7d04-72b5-4c56-8880-f5459b972926")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.7053 25.4 0)
+			(at 227.4899 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +8584,7 @@
 	)
 	(global_label "MAX31855.CS_Chiller"
 		(shape input)
-		(at 149.86 38.1 0)
+		(at 199.39 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7554,7 +8594,7 @@
 		)
 		(uuid "af93e565-7553-4239-bf5b-45db1b75383c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.9231 38.1 0)
+			(at 222.4531 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,7 +8628,7 @@
 	)
 	(global_label "case thermocouple plus"
 		(shape input)
-		(at 16.51 234.95 180)
+		(at 198.12 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7598,7 +8638,7 @@
 		)
 		(uuid "b68a044a-c00f-4d93-9cee-0a5315680665")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -9.6372 234.95 0)
+			(at 171.9728 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7740,6 +8780,28 @@
 			)
 		)
 	)
+	(global_label "MAX_Vin"
+		(shape input)
+		(at 158.75 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c52887b2-78b4-429c-a78f-2c740728630e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.2053 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Spare.Analog3"
 		(shape input)
 		(at 76.2 184.15 90)
@@ -7872,28 +8934,6 @@
 			)
 		)
 	)
-	(global_label "MAX31855.CS_Head"
-		(shape input)
-		(at 149.86 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d3fcbdc3-307c-4de6-9512-f390d67073b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.4112 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Chiller.Alarm.Sig"
 		(shape input)
 		(at -77.47 40.64 270)
@@ -7912,6 +8952,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAX31855.CLK"
+		(shape input)
+		(at 200.66 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8a9e8e1-a72a-4524-8b72-30e5640603f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.6151 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7962,7 +9024,7 @@
 	)
 	(global_label "MAX31855.CLK"
 		(shape input)
-		(at 149.86 30.48 0)
+		(at 199.39 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7972,7 +9034,7 @@
 		)
 		(uuid "de91ee11-5a91-4102-9800-7f76cdf403ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.8151 30.48 0)
+			(at 216.3451 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +9112,7 @@
 	)
 	(global_label "chiller thermocouple minus"
 		(shape input)
-		(at 16.51 247.65 180)
+		(at 198.12 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8060,7 +9122,7 @@
 		)
 		(uuid "e6c45d46-7148-42fa-b130-080b4b0c42af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -12.9634 247.65 0)
+			(at 168.6466 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8114,9 +9176,9 @@
 			)
 		)
 	)
-	(global_label "MAX31855.CLK"
+	(global_label "MAX31855.CS_Sink"
 		(shape input)
-		(at 232.41 30.48 0)
+		(at 325.12 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8124,9 +9186,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ee5eb91a-1824-40bd-85d0-c92803298b7d")
+		(uuid "ea7f6a22-60cd-41e5-ad04-44bc568f1de9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.3651 30.48 0)
+			(at 345.9455 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,9 +9220,31 @@
 			)
 		)
 	)
+	(global_label "MAX_Vin"
+		(shape input)
+		(at 283.21 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f18c42a6-9482-4699-a4cb-b32f21c201a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 272.6653 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "chiller thermocouple plus"
 		(shape input)
-		(at 16.51 245.11 180)
+		(at 198.12 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8170,7 +9254,7 @@
 		)
 		(uuid "f4180986-9556-44c2-854f-6a2a4c69ffc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -11.3305 245.11 0)
+			(at 170.2795 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +9266,7 @@
 	)
 	(global_label "sink thermocouple minus"
 		(shape input)
-		(at 41.91 242.57 0)
+		(at 223.52 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8192,7 +9276,7 @@
 		)
 		(uuid "f432a113-61e3-4af9-9537-89a85f79a4c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.1458 242.57 0)
+			(at 250.7558 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,50 +9326,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MAX31855.Do"
-		(shape input)
-		(at 149.86 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f95bf095-2b6c-48fb-b511-6f595f0a7653")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.666 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MAX31855.Do"
-		(shape input)
-		(at 232.41 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f995d187-c8a1-4865-b349-5050645e59e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.216 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8577,100 +9617,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Temperature:MAX31855KASA")
-		(at 222.25 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "056f811c-5856-4fa3-aa7f-c7601326f385")
-		(property "Reference" "U3"
-			(at 224.4441 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX31855KASA"
-			(at 224.4441 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 247.65 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-			(at 222.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
-			(at 222.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "purpose" "sink"
-			(at 222.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "54af6ba1-b401-4d2a-aa75-490f8bdd1688")
-		)
-		(pin "1"
-			(uuid "d94ccb00-c0f4-468d-a141-9a4c1011d945")
-		)
-		(pin "4"
-			(uuid "aa167721-2c9a-422c-9e3a-2f9c27b71e46")
-		)
-		(pin "7"
-			(uuid "d5d41c7c-a235-42d8-a575-8d6f904bfa59")
-		)
-		(pin "5"
-			(uuid "a0174e7c-3484-4d37-9ccd-738eb43c851a")
-		)
-		(pin "6"
-			(uuid "feb6ef29-b9a6-4dcd-ac8e-2189f899a84d")
-		)
-		(pin "3"
-			(uuid "f2317d8b-aa06-4d7a-9f0d-cd64856cc800")
-		)
-		(instances
-			(project "CoolingBoxWireOrganizer"
-				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 273.05 1.27 0)
 		(unit 1)
@@ -8731,6 +9677,74 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite")
+		(at 133.35 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a098e25-aa9a-47f0-be76-6d78640af14c")
+		(property "Reference" "L1"
+			(at 133.35 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L_Ferrite"
+			(at 133.35 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 133.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 133.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de71b110-020a-4cb0-9877-36b60e725e98")
+		)
+		(pin "1"
+			(uuid "7b305b82-3c89-4f67-aad1-3f5213af1ddc")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -9114,7 +10128,7 @@
 	)
 	(symbol
 		(lib_id "my_library:PTSM_0,57-2,5-V_THR_WH_R44")
-		(at 16.51 229.87 0)
+		(at 198.12 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9122,7 +10136,7 @@
 		(dnp no)
 		(uuid "14fa8cdf-7388-40e2-8dd4-cb5db51a92c4")
 		(property "Reference" "J3"
-			(at 29.21 222.25 0)
+			(at 210.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9130,7 +10144,7 @@
 			)
 		)
 		(property "Value" "PTSM_0,57-2,5-V_THR_WH_R44"
-			(at 29.21 224.79 0)
+			(at 210.82 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9138,7 +10152,7 @@
 			)
 		)
 		(property "Footprint" "my_library:PTSM 0,57-2,5-V THR WH R44"
-			(at 38.1 324.79 0)
+			(at 219.71 232.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9148,7 +10162,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1814621/pdf"
-			(at 38.1 424.79 0)
+			(at 219.71 332.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,7 +10172,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 8, Number of rows: 1, Number of positions per row: 8, product range: PTSM 0,5/..-V-THR WH, pitch: 2.5 mm, connection method: Push-in spring connection, mounting: THR soldering, conductor/PCB connection direction: 90 ?, color: white, Pin layout: Linear double pinning, Solder pin [P]: 2.1 mm, type of packaging: 44 mm wide tape"
-			(at 16.51 229.87 0)
+			(at 198.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,7 +10181,7 @@
 			)
 		)
 		(property "Height" "10.15"
-			(at 38.1 624.79 0)
+			(at 219.71 532.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +10191,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 38.1 724.79 0)
+			(at 219.71 632.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9187,7 +10201,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1814621"
-			(at 38.1 824.79 0)
+			(at 219.71 732.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,7 +10211,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1814621"
-			(at 38.1 924.79 0)
+			(at 219.71 832.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9207,7 +10221,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814621?qs=eTPcRhULBzzQqEIduBtOoQ%3D%3D"
-			(at 38.1 1024.79 0)
+			(at 219.71 932.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9217,7 +10231,7 @@
 			)
 		)
 		(property "Arrow Part Number" "1814621"
-			(at 38.1 1124.79 0)
+			(at 219.71 1032.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +10241,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1814621/phoenix-contact?region=nac"
-			(at 38.1 1224.79 0)
+			(at 219.71 1132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,7 +10251,7 @@
 			)
 		)
 		(property "purpose" "thermocouple terminal"
-			(at 28.956 252.222 0)
+			(at 210.566 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9362,6 +10376,163 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 196.85 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dbe2fa0-7a70-4dfd-87d9-155c12d82370")
+		(property "Reference" "D3"
+			(at 196.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "718a2c31-a9d2-47a2-8405-fb16b62fe2bb")
+		)
+		(pin "1"
+			(uuid "51231f01-13a2-4b94-bcd0-c88a69ad04cf")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e8f1e87-2d8c-4205-8057-e870fa7efddf")
+		(property "Reference" "R14"
+			(at 184.15 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10000"
+			(at 184.15 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 183.388 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17c13dec-5ace-44d5-969f-54c5e7aa54d5")
+		)
+		(pin "2"
+			(uuid "d03ad3f0-94aa-4e6b-b729-62551dcb3ece")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9784,6 +10955,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 306.07 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "312c8885-7d0f-4b0d-924e-a02b734b1628")
+		(property "Reference" "R18"
+			(at 308.61 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10000"
+			(at 308.61 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 307.848 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 306.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f1730a3-d93e-44a9-9e5e-bc57b6e63785")
+		)
+		(pin "2"
+			(uuid "a0132b20-8b67-411d-976b-b5b5ef53ed23")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x18_Odd_Even")
 		(at 269.24 137.16 0)
 		(mirror y)
@@ -10021,7 +11263,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:MAX31855KASA")
-		(at 139.7 35.56 0)
+		(at 157.48 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10030,7 +11272,7 @@
 		(fields_autoplaced yes)
 		(uuid "341c9e70-cfb4-4ff6-886e-48f82fed3477")
 		(property "Reference" "U1"
-			(at 141.8941 22.86 0)
+			(at 159.6741 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,7 +11281,7 @@
 			)
 		)
 		(property "Value" "MAX31855KASA"
-			(at 141.8941 25.4 0)
+			(at 159.6741 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +11290,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 165.1 44.45 0)
+			(at 182.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,7 +11300,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-			(at 139.7 35.56 0)
+			(at 157.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +11309,7 @@
 			)
 		)
 		(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
-			(at 139.7 35.56 0)
+			(at 157.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10076,7 +11318,7 @@
 			)
 		)
 		(property "purpose" "chiller"
-			(at 139.7 35.56 0)
+			(at 157.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,45 +11423,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Temperature:MAX31855KASA")
-		(at 139.7 77.47 0)
+		(lib_id "Device:D")
+		(at 196.85 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3632a1ab-5525-419d-9c9b-91a41dc35a13")
-		(property "Reference" "U2"
-			(at 141.8941 64.77 0)
+		(uuid "38828381-b273-4c1d-9cdc-2311674f0d22")
+		(property "Reference" "D4"
+			(at 196.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MAX31855KASA"
-			(at 141.8941 67.31 0)
+		(property "Value" "D"
+			(at 196.85 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-			(at 139.7 77.47 0)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 196.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,8 +11457,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
-			(at 139.7 77.47 0)
+		(property "Datasheet" "~"
+			(at 196.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,39 +11466,43 @@
 				(hide yes)
 			)
 		)
-		(property "purpose" "head"
-			(at 139.7 77.47 0)
+		(property "Description" "Diode"
+			(at 196.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "ebed3174-c812-41ed-87bc-259c8ee40a78")
+			(uuid "0ab0fa5d-d1ab-429b-af63-847604874664")
 		)
 		(pin "1"
-			(uuid "57180738-1d57-457a-a19f-967eeb1a69c4")
-		)
-		(pin "4"
-			(uuid "d80fb9f8-3ef5-4964-9c22-9eaede4cd96a")
-		)
-		(pin "7"
-			(uuid "f6de5b1b-68ae-4a76-b022-c5ec918fcff6")
-		)
-		(pin "5"
-			(uuid "3a90b877-84e6-4c13-917c-96d560e4e06b")
-		)
-		(pin "6"
-			(uuid "f2499b31-b977-474e-980f-3839b46c7681")
-		)
-		(pin "3"
-			(uuid "59155b44-7d6a-4866-82db-ea10c0adf7b0")
+			(uuid "c072698b-14d5-4ae1-b4c7-3652ae4759d3")
 		)
 		(instances
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "U2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10341,45 +11575,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Temperature:MAX31855KASA")
-		(at 222.25 77.47 0)
+		(lib_id "Device:L_Ferrite")
+		(at 134.62 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a117f4c-d0af-484f-a354-c40bf44bf7cb")
-		(property "Reference" "U4"
-			(at 224.4441 64.77 0)
+		(uuid "39f546a8-717c-4c39-9241-a2738b9148f8")
+		(property "Reference" "L3"
+			(at 134.62 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MAX31855KASA"
-			(at 224.4441 67.31 0)
+		(property "Value" "L_Ferrite"
+			(at 134.62 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 247.65 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-			(at 222.25 77.47 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10387,8 +11609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
-			(at 222.25 77.47 0)
+		(property "Datasheet" "~"
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10396,39 +11618,165 @@
 				(hide yes)
 			)
 		)
-		(property "purpose" "case"
-			(at 222.25 77.47 0)
+		(property "Description" "Inductor with ferrite core"
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "89c00795-e560-44ab-9435-dc5d40e2fdba")
+			(uuid "6b9ef8e9-3c56-449d-ba73-b5969cac6abb")
 		)
 		(pin "1"
-			(uuid "962f794d-3b6d-4376-8e62-2d6f096fb264")
-		)
-		(pin "4"
-			(uuid "f6781052-2776-4677-9fbf-8b85ec890d95")
-		)
-		(pin "7"
-			(uuid "179984c6-999e-4e41-9ad3-edd9a95f9a85")
-		)
-		(pin "5"
-			(uuid "c1098045-3fbc-41d2-989d-cf543ef27caf")
-		)
-		(pin "6"
-			(uuid "c638594a-ee60-42b0-90db-74017f5ea027")
-		)
-		(pin "3"
-			(uuid "b40d4401-7e47-4355-980a-217171cab31a")
+			(uuid "e2355d93-9dd2-46b1-8392-024c4eeed3c5")
 		)
 		(instances
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "U4")
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 306.07 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f65d69e-8c36-48ef-abe9-32d0fe51c9ad")
+		(property "Reference" "R17"
+			(at 303.53 41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10000"
+			(at 303.53 39.3701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 304.292 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 306.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92383d84-3f28-4c78-bc90-e54546e81d42")
+		)
+		(pin "2"
+			(uuid "209a73d7-99e9-4222-9283-d3919ed0e759")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fa24484-ba9f-46e6-959a-3f3b540d6cfa")
+		(property "Reference" "C3"
+			(at 142.494 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01u"
+			(at 142.494 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 145.7452 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b779ffda-d495-4a81-b6d9-735a7c4db4c5")
+		)
+		(pin "2"
+			(uuid "3cd9cdb6-fe26-4371-b5d3-1e34ea57d79b")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10495,6 +11843,92 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 195.58 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "403aad5e-8bf5-4153-861b-a0169dfb3c27")
+		(property "Reference" "D1"
+			(at 195.58 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 195.58 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 195.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 195.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 195.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 195.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f69cbae-1edf-47ea-a7aa-b530611eb9dd")
+		)
+		(pin "1"
+			(uuid "9d534d85-4c49-4f60-939a-206a7d21ba6d")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10630,6 +12064,72 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 306.07 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4435484a-3f57-4944-b237-d4b8443975af")
+		(property "Reference" "#PWR046"
+			(at 306.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 306.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 306.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1445c8e5-6b87-4a2b-9fd5-a8eee24d52e3")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10915,6 +12415,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 306.07 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "511a2da7-5d38-4707-9f18-de7f555d7e97")
+		(property "Reference" "#PWR043"
+			(at 306.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 306.07 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 306.07 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a713da19-c6fb-41e1-8735-ea28fcbf5383")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
 		(at 26.67 189.23 90)
 		(unit 1)
@@ -10995,6 +12561,144 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "542b27a7-5401-4685-951e-9a7d383613f5")
+		(property "Reference" "R15"
+			(at 179.07 83.8201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10000"
+			(at 179.07 81.2801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 179.832 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "616e063e-2ffd-4735-bc3f-04b3956afd2b")
+		)
+		(pin "2"
+			(uuid "23f53e17-b38c-4184-bd93-71a6cc009e43")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite")
+		(at 259.08 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56b3b68c-e4b7-408a-beae-40faa70a6efa")
+		(property "Reference" "L8"
+			(at 259.08 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L_Ferrite"
+			(at 259.08 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 259.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 259.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2be52ba1-56c8-40be-b431-3156f4a27ee3")
+		)
+		(pin "1"
+			(uuid "95c81740-b6cf-4fcc-be18-49f6694afff4")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -11143,6 +12847,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Temperature:MAX31855KASA")
+		(at 283.21 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c2f723f-9991-4546-ae78-7f48d6725727")
+		(property "Reference" "U3"
+			(at 285.4041 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX31855KASA"
+			(at 285.4041 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 308.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
+			(at 283.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
+			(at 283.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "purpose" "sink"
+			(at 283.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9fa1e0fc-482d-46dc-98dc-7f12cb3eb3e0")
+		)
+		(pin "1"
+			(uuid "414ccc4b-eca1-4833-9585-5ca10dd1421a")
+		)
+		(pin "4"
+			(uuid "5ba79508-0ecb-4009-a3c3-602f058925fb")
+		)
+		(pin "7"
+			(uuid "b5e8b3c5-069f-413b-a72f-064406791175")
+		)
+		(pin "5"
+			(uuid "405d5475-9e00-4674-b34b-89428f570121")
+		)
+		(pin "6"
+			(uuid "d811043c-2528-42f7-87f6-5331210e0ed7")
+		)
+		(pin "3"
+			(uuid "66b24e8a-a1b0-4c09-9c64-d33de75a91f7")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 181.61 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ec724d1-166c-404c-bf7e-7e628ed7bd4e")
+		(property "Reference" "#PWR041"
+			(at 181.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "426e69e1-e051-403e-bd89-aadd3a1190d1")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 283.21 110.49 0)
 		(unit 1)
@@ -11203,6 +13067,92 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 321.31 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6373f671-4f2b-4959-878f-bdd757783054")
+		(property "Reference" "D5"
+			(at 321.31 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 321.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 321.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 321.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 321.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 321.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 321.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34a4c07c-8425-4f4c-a6fc-807b81d5cc4e")
+		)
+		(pin "1"
+			(uuid "852922d3-d759-40b0-a09b-7bdf2f8271dc")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11497,6 +13447,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 180.34 41.91 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "646b52b1-9f68-45df-9207-aa78279b5c6f")
+		(property "Reference" "R13"
+			(at 177.8 43.1801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10000"
+			(at 177.8 40.6401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 178.562 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e4035a0-792e-4f8e-a63a-5bf30ab8d779")
+		)
+		(pin "2"
+			(uuid "e088a9da-8a42-4124-b0cc-0901eb4e2fa5")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite")
+		(at 134.62 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6603c6db-a527-45a7-a841-bf93ec04195e")
+		(property "Reference" "L4"
+			(at 134.62 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L_Ferrite"
+			(at 134.62 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 134.62 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 134.62 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2e398fc-6a23-4fbb-9421-359acf0b1279")
+		)
+		(pin "1"
+			(uuid "e0372245-fed3-4c00-bef4-b7091abfcfdc")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at -97.79 29.21 0)
 		(unit 1)
@@ -11557,6 +13645,158 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 321.31 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74ec9dcd-3404-495d-9d79-c352afdb254e")
+		(property "Reference" "D6"
+			(at 321.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 321.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 321.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 321.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 321.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 321.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 321.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c28bf07-5799-4d44-9bc7-2e1e04427113")
+		)
+		(pin "1"
+			(uuid "bd1f039a-3d02-40e7-8b6d-3f80f54add6b")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 306.07 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a4b2f96-3b33-4ce2-8075-4d0a85fabb97")
+		(property "Reference" "#PWR044"
+			(at 306.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 306.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 306.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "478085a7-4aad-4c1b-a193-673a0251d3ce")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -12115,6 +14355,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 306.07 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92b1926f-6a05-48e8-97a0-ca689cbf5520")
+		(property "Reference" "#PWR045"
+			(at 306.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 306.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 306.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49756688-6915-4aaf-8f37-b27d8a52304d")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 273.05 -6.35 0)
 		(unit 1)
@@ -12241,6 +14547,92 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 321.31 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98bc3b51-4c08-4751-a621-410999876a5d")
+		(property "Reference" "D8"
+			(at 321.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 321.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 321.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 321.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 321.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 321.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 321.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00997721-7604-433f-a5b8-871e73f1634f")
+		)
+		(pin "1"
+			(uuid "9204c5ef-791f-4683-ad28-5e7819caefb1")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -12389,6 +14781,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 321.31 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ae218af-09b6-4b8a-a651-8fe35cda1e12")
+		(property "Reference" "D7"
+			(at 321.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 321.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 321.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 321.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 321.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 321.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 321.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35d976be-aa29-42f0-af71-e931c30163e2")
+		)
+		(pin "1"
+			(uuid "daaa099e-1613-4b93-b52e-d27e8f732e9f")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 115.57 0)
 		(unit 1)
@@ -12449,6 +14927,72 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 181.61 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4a82812-69dd-4623-825d-715e471be026")
+		(property "Reference" "#PWR042"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 181.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a61e490e-804f-461b-9ad6-e26e0251eb4b")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12775,6 +15319,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 306.07 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8d85f7f-f5db-4099-8683-1345b29fb9fc")
+		(property "Reference" "R16"
+			(at 308.61 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10000"
+			(at 308.61 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 307.848 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 306.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e403bdad-9a84-4f45-8f76-77ed00b17360")
+		)
+		(pin "2"
+			(uuid "048da2dd-e0fe-4755-89d2-0dc9f06dda53")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x10_Pin")
 		(at 29.21 21.59 270)
 		(unit 1)
@@ -12861,6 +15476,100 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:MAX31855KASA")
+		(at 158.75 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abeca954-e0d0-4607-9354-a9e28c7235be")
+		(property "Reference" "U2"
+			(at 160.9441 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX31855KASA"
+			(at 160.9441 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
+			(at 158.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
+			(at 158.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "purpose" "head"
+			(at 158.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c027cbd-43ec-434a-a201-3dea8480f5ba")
+		)
+		(pin "1"
+			(uuid "f0e8bc8d-1f8a-4b50-9ac1-b5b2271c397c")
+		)
+		(pin "4"
+			(uuid "0a2c9fc6-44d2-441d-99dc-77b90ea04934")
+		)
+		(pin "7"
+			(uuid "5463eca0-b7c1-4a04-bc70-e13260e032cd")
+		)
+		(pin "5"
+			(uuid "9b4679b2-12e4-44ff-9524-d4f67911497c")
+		)
+		(pin "6"
+			(uuid "7535260d-bc40-4c93-804b-ae8745e730c9")
+		)
+		(pin "3"
+			(uuid "b50f00e6-b8a1-4ebe-b387-a1f25c83582b")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13201,6 +15910,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 269.24 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9476ad9-98b6-49c9-8fc3-c7d421ffcbcb")
+		(property "Reference" "C5"
+			(at 266.954 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01u"
+			(at 266.954 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 270.2052 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 269.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1225048-d000-4367-8be9-54b2afc9ec41")
+		)
+		(pin "2"
+			(uuid "bf579342-660d-4871-bf41-0fd6b5b14391")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 127 0)
 		(unit 1)
@@ -13261,6 +16039,77 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 306.07 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdaddd8e-6997-4d19-85de-d5dc0b1c6476")
+		(property "Reference" "R19"
+			(at 303.53 83.8201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10000"
+			(at 303.53 81.2801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 304.292 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 306.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67707610-f9db-4289-bd61-a5a633f6a8fa")
+		)
+		(pin "2"
+			(uuid "aa6dcdd4-6014-4fdf-a5b4-c13a9ba98fde")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13419,6 +16268,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 180.34 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1cdffe5-8208-429c-a423-86a3d407f5b2")
+		(property "Reference" "#PWR025"
+			(at 180.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adbb99ec-20e9-48f8-b490-eb8609c8150c")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 121.92 0)
 		(unit 1)
@@ -13486,6 +16401,77 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 180.34 26.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3052164-2e5b-4e9c-ac63-5644118c73b3")
+		(property "Reference" "R12"
+			(at 182.88 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10000"
+			(at 182.88 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 182.118 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9db9abd7-209f-43c0-98d8-8db36ee08c6c")
+		)
+		(pin "2"
+			(uuid "91c4a22b-21dd-4cf6-8583-50257494b697")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 123.19 127 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13546,6 +16532,142 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 143.51 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c65d9c32-c737-48a2-b383-637036a5296b")
+		(property "Reference" "C2"
+			(at 141.224 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01u"
+			(at 141.224 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 144.4752 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eccef18-75f4-4f59-a34f-5781aa4fd97a")
+		)
+		(pin "2"
+			(uuid "8c4cf2f1-006e-49b2-a0b3-aa00f1657117")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite")
+		(at 133.35 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca711a89-2ac7-4286-819c-05e6ac584661")
+		(property "Reference" "L2"
+			(at 133.35 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L_Ferrite"
+			(at 133.35 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 133.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 133.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad722aac-1ce2-4d27-bf03-9cc5e44cd4e1")
+		)
+		(pin "1"
+			(uuid "1f5e062a-17ba-49f6-abc3-fd4a715f6abe")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -13888,6 +17010,73 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite")
+		(at 259.08 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfb5127b-7498-48e3-852b-3c962d018e97")
+		(property "Reference" "L6"
+			(at 259.08 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L_Ferrite"
+			(at 259.08 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5033a828-4a6f-415f-aecc-4086dae8711e")
+		)
+		(pin "1"
+			(uuid "a8e128c7-1baf-4964-9610-5b668344a84d")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -14320,6 +17509,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Ferrite")
+		(at 259.08 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcc81b37-9d22-4a79-a7df-c904ff5bb526")
+		(property "Reference" "L7"
+			(at 259.08 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L_Ferrite"
+			(at 259.08 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44cf9623-b384-4049-8419-d98688e2d611")
+		)
+		(pin "1"
+			(uuid "77ea2691-3c27-47a7-b37a-49a4319cc9e9")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 105.41 172.72 0)
 		(unit 1)
@@ -14605,6 +17862,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 180.34 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e815fd93-75ee-42ca-9186-8210ef540989")
+		(property "Reference" "#PWR020"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 180.34 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 180.34 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49566ec8-e40f-4167-81b1-15e2e7caaf78")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 280.67 -6.35 0)
 		(unit 1)
@@ -14731,6 +18054,92 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 195.58 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f056473b-403a-475b-b56c-68c649b301c3")
+		(property "Reference" "D2"
+			(at 195.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0bbfbba-e1ac-41ac-848e-50e670414588")
+		)
+		(pin "1"
+			(uuid "9de3d047-08cd-4ce1-954f-d304813cd70d")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14974,6 +18383,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 269.24 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f744d63a-f73e-4c20-b7f3-d437a23f5add")
+		(property "Reference" "C4"
+			(at 266.954 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01u"
+			(at 266.954 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 270.2052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95484b46-0db2-45b2-be65-28fbacfa3b95")
+		)
+		(pin "2"
+			(uuid "48e46fe2-639f-42aa-8026-bd7607694966")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 36.83 172.72 0)
 		(unit 1)
@@ -15034,6 +18512,100 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:MAX31855KASA")
+		(at 283.21 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9ac738f-27b3-4426-bb18-19703e8bc425")
+		(property "Reference" "U4"
+			(at 285.4041 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX31855KASA"
+			(at 285.4041 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 308.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
+			(at 283.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
+			(at 283.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "purpose" "case"
+			(at 283.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c9b2be3-1726-49ae-9e54-be83d0fcd89d")
+		)
+		(pin "1"
+			(uuid "f6d9c364-1874-4d29-943d-50c0165ca20a")
+		)
+		(pin "4"
+			(uuid "f20419d5-1b21-4093-9130-cadc2d6a8379")
+		)
+		(pin "7"
+			(uuid "9e60df44-94bc-4412-b199-19b779f07c22")
+		)
+		(pin "5"
+			(uuid "3f08e0f3-559b-4fc7-ab5f-e10505a07980")
+		)
+		(pin "6"
+			(uuid "8b334f6a-7415-461a-b6c0-398fcc41ac8d")
+		)
+		(pin "3"
+			(uuid "a8c64b7a-4034-439a-9381-4fb25963311d")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -15181,6 +18753,74 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite")
+		(at 259.08 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbdb28a0-3673-49f8-9c23-cc36f2d4f3a6")
+		(property "Reference" "L5"
+			(at 259.08 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L_Ferrite"
+			(at 259.08 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 259.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 259.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38f11a72-034f-4aa1-b731-94340bd12104")
+		)
+		(pin "1"
+			(uuid "bfb7b26f-f33f-422b-8b55-cbb632afac23")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "L5")
 					(unit 1)
 				)
 			)
