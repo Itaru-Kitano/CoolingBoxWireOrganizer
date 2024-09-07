@@ -5824,16 +5824,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 58.42) (xy 20.32 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1afb2d35-663f-4ef6-9d72-39b15c0ba81b")
-	)
-	(wire
-		(pts
 			(xy 137.16 31.75) (xy 143.51 31.75)
 		)
 		(stroke
@@ -5871,16 +5861,6 @@
 			(type default)
 		)
 		(uuid "28406848-fe53-4e88-8f33-90a0aefa9492")
-	)
-	(wire
-		(pts
-			(xy 86.36 115.57) (xy 88.9 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c88d292-e369-4d34-8bd7-cc5d1e3bcf65")
 	)
 	(wire
 		(pts
@@ -6164,6 +6144,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 115.57) (xy 96.52 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612157ee-1220-46b7-875e-9011ca9d9535")
+	)
+	(wire
+		(pts
 			(xy 306.07 78.74) (xy 317.5 78.74)
 		)
 		(stroke
@@ -6194,16 +6184,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 58.42) (xy 38.1 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "664b3967-9b1c-4e59-bfda-995820e0ad49")
-	)
-	(wire
-		(pts
 			(xy 180.34 30.48) (xy 167.64 30.48)
 		)
 		(stroke
@@ -6224,7 +6204,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 127) (xy 119.38 127)
+			(xy 120.65 120.65) (xy 135.89 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6254,17 +6234,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 119.38) (xy 173.99 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78e61843-580e-45ca-a554-b52ebfd3b601")
-	)
-	(wire
-		(pts
-			(xy 104.14 132.08) (xy 119.38 132.08)
+			(xy 120.65 125.73) (xy 135.89 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6294,16 +6264,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 62.23) (xy 81.28 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83a4ac6b-4840-4a21-bd28-603986809f4d")
-	)
-	(wire
-		(pts
 			(xy -77.47 38.1) (xy -77.47 40.64)
 		)
 		(stroke
@@ -6321,16 +6281,6 @@
 			(type default)
 		)
 		(uuid "8c623c2c-fee6-459b-b857-3896cfae2dd1")
-	)
-	(wire
-		(pts
-			(xy 86.36 113.03) (xy 92.71 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8faa71e4-022a-42dd-bdac-e775064eb710")
 	)
 	(wire
 		(pts
@@ -6371,6 +6321,16 @@
 			(type default)
 		)
 		(uuid "9b5efa0e-78c7-45a7-831e-b91a6f6666e7")
+	)
+	(wire
+		(pts
+			(xy 76.2 115.57) (xy 80.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e259aa1-3a34-474e-b930-46629f1f76fd")
 	)
 	(wire
 		(pts
@@ -6494,7 +6454,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 116.84) (xy 119.38 116.84)
+			(xy 120.65 110.49) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6604,7 +6564,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 121.92) (xy 119.38 121.92)
+			(xy 168.91 123.19) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c00bb0-6931-43e8-8631-1d5f2307b4f1")
+	)
+	(wire
+		(pts
+			(xy 120.65 115.57) (xy 135.89 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6631,6 +6601,16 @@
 			(type default)
 		)
 		(uuid "ea516b2e-e93e-4eb6-8367-9b09a45c5cfd")
+	)
+	(wire
+		(pts
+			(xy 7.62 58.42) (xy 25.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb716dd5-28bc-46d4-a5d7-8c09bfd4476b")
 	)
 	(wire
 		(pts
@@ -6712,6 +6692,28 @@
 		)
 		(uuid "fe1bf1e9-3ca0-41fd-a9d4-168336811c34")
 	)
+	(global_label "to HV intlk 1"
+		(shape input)
+		(at 168.91 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01c1d272-548f-45b7-83e9-e3ef3b8e5b48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.4741 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MAX_Vin"
 		(shape input)
 		(at 157.48 25.4 180)
@@ -6734,9 +6736,9 @@
 			)
 		)
 	)
-	(global_label "to AC100V intlk"
+	(global_label "to HV intlk 2"
 		(shape input)
-		(at 52.07 156.21 0)
+		(at 168.91 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6744,9 +6746,9 @@
 			)
 			(justify left)
 		)
-		(uuid "081761c5-51d7-4b53-9815-a3b589c63239")
+		(uuid "078e4987-d268-4c21-8a2c-0d5f1f8fc354")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.1136 156.21 0)
+			(at 184.4741 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,6 +6890,28 @@
 			)
 		)
 	)
+	(global_label "to AC100V intlk"
+		(shape input)
+		(at 43.18 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ccfe191-3f64-4575-8b66-63eef1e3d444")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.1364 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Spare.Digital3"
 		(shape input)
 		(at 261.62 121.92 180)
@@ -6998,28 +7022,6 @@
 			)
 		)
 	)
-	(global_label "to heater"
-		(shape input)
-		(at 27.94 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2a559410-2990-460d-8f7d-2d41387fa80d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.7546 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Chiller.Alarm.GND"
 		(shape input)
 		(at 55.88 97.79 0)
@@ -7033,28 +7035,6 @@
 		(uuid "2c16970a-1903-4a30-85a8-9d7ba6535a64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.5566 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "to HV intlk 1"
-		(shape input)
-		(at 152.4 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c205b71-3b7b-416a-85ec-034f5fc68b0c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.9641 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,6 +7374,28 @@
 			)
 		)
 	)
+	(global_label "Relay.HV_intlk"
+		(shape input)
+		(at 143.51 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "411e3029-75db-4dc2-ad62-5db9802aa2b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.2201 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Relay.Heater"
 		(shape input)
 		(at 128.27 160.02 180)
@@ -7594,7 +7596,7 @@
 	)
 	(global_label "Relay.Pel_intlk"
 		(shape input)
-		(at 127 114.3 180)
+		(at 143.51 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7604,7 +7606,7 @@
 		)
 		(uuid "532ce274-be30-4b41-9812-254a49be40a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1054 114.3 0)
+			(at 126.6154 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,6 +7695,28 @@
 		(uuid "5e55a547-386a-4654-b5b7-a9404e132472")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.3001 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "to AC100V intlk"
+		(shape input)
+		(at 168.91 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f303a5b-d606-44cd-912c-ae6f515df7f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.9536 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,28 +7946,6 @@
 			)
 		)
 	)
-	(global_label "to HV intlk 2"
-		(shape input)
-		(at 152.4 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a911d46-5c27-4031-873f-e80a5040777e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.9641 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "to LV intlk 2"
 		(shape input)
 		(at 85.09 157.48 0)
@@ -8056,7 +8058,7 @@
 	)
 	(global_label "Relay.LV_intlk"
 		(shape input)
-		(at 127 124.46 180)
+		(at 143.51 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8066,7 +8068,7 @@
 		)
 		(uuid "83bdbbfc-187f-42a4-aabc-4a1929c3a9e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0125 124.46 0)
+			(at 127.5225 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,28 +8118,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "to peltier minus"
-		(shape input)
-		(at 73.66 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8f7f1fcf-d0f1-45d8-aed5-0ea59b0d2c8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.1326 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8232,7 +8212,7 @@
 	)
 	(global_label "to peltier intlk 1"
 		(shape input)
-		(at 152.4 114.3 0)
+		(at 168.91 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8242,7 +8222,7 @@
 		)
 		(uuid "958743e6-0419-4676-8997-6fd6f16d5787")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.6531 114.3 0)
+			(at 188.1631 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +8256,7 @@
 	)
 	(global_label "to LV intlk 1"
 		(shape input)
-		(at 152.4 124.46 0)
+		(at 168.91 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8286,7 +8266,7 @@
 		)
 		(uuid "9927fd1e-6d6d-433f-be11-5220868b3b40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.6617 124.46 0)
+			(at 184.1717 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,28 +8386,6 @@
 			)
 		)
 	)
-	(global_label "Relay.HV_intlk"
-		(shape input)
-		(at 127 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a4b87c35-1318-438a-8623-5f94010f7df4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.7101 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MAX_GND"
 		(shape input)
 		(at 283.21 44.45 0)
@@ -8468,6 +8426,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "to peltier plus"
+		(shape input)
+		(at 92.71 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6694d52-dd06-46cc-b3d5-7918996cbf08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.6045 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8692,9 +8672,9 @@
 			)
 		)
 	)
-	(global_label "Relay.AC100V_intlk"
+	(global_label "to peltier minus"
 		(shape input)
-		(at 127 119.38 180)
+		(at 80.01 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8702,31 +8682,9 @@
 			)
 			(justify right)
 		)
-		(uuid "bb7f15d4-db3d-43c1-9fd8-100165808726")
+		(uuid "be40c051-ddbf-4a50-9968-c0e466fedd06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.0535 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "to peltier plus"
-		(shape input)
-		(at 73.66 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bd4102b5-4772-4984-b52c-2cdb8f56ee7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.7655 113.03 0)
+			(at 61.4826 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,6 +9024,28 @@
 			)
 		)
 	)
+	(global_label "to heater"
+		(shape input)
+		(at 19.05 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2641d74-d476-40f0-8f2c-cb8eab9d9461")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 7.2354 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Chiller.Alarm.input"
 		(shape input)
 		(at 55.88 100.33 0)
@@ -9090,7 +9070,7 @@
 	)
 	(global_label "to LV intlk 2"
 		(shape input)
-		(at 152.4 127 0)
+		(at 168.91 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9100,7 +9080,7 @@
 		)
 		(uuid "e3d50f3f-5974-46c9-9d85-5ca5b19d392c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.6617 127 0)
+			(at 184.1717 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,28 +9108,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "to AC100V intlk"
-		(shape input)
-		(at 152.4 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea35c8d4-02eb-43d1-9c0d-fbd289fde2a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.4436 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9194,6 +9152,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Relay.AC100V_intlk"
+		(shape input)
+		(at 143.51 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0fb23c6-847c-4555-b6f3-bca50372db88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.5635 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9354,7 +9334,7 @@
 	)
 	(global_label "to peltier intlk 2"
 		(shape input)
-		(at 152.4 116.84 0)
+		(at 168.91 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9364,7 +9344,7 @@
 		)
 		(uuid "fdac3768-c6b6-4093-8177-f848baeb3d7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.6531 116.84 0)
+			(at 188.1631 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9751,72 +9731,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 88.9 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c31740c-d8f1-443d-a8cb-d10eb94c26e4")
-		(property "Reference" "#PWR028"
-			(at 88.9 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 88.9 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 88.9 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e56817d0-61ed-49ce-9e70-8b63c1ae67f1")
-		)
-		(instances
-			(project "CoolingBoxWireOrganizer"
-				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
 		(at 48.26 97.79 0)
 		(unit 1)
@@ -9985,7 +9899,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 116.84 90)
+		(at 139.7 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9993,7 +9907,7 @@
 		(dnp no)
 		(uuid "0dd2d262-4b78-47af-a36d-a886c3902a4b")
 		(property "Reference" "R4"
-			(at 119.126 118.11 90)
+			(at 135.636 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10001,7 +9915,7 @@
 			)
 		)
 		(property "Value" "1000"
-			(at 123.19 116.84 90)
+			(at 139.7 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +9923,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 123.19 118.618 90)
+			(at 139.7 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +9932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 116.84 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10027,7 +9941,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 116.84 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10310,6 +10224,72 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 76.2 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1727c31f-6bb6-4e68-a15d-8bc6ed347ff0")
+		(property "Reference" "#PWR027"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba01dded-b3e9-419e-9569-982fae71ce56")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10672,7 +10652,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 76.2 64.77 180)
+		(at 81.28 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10681,23 +10661,25 @@
 		(fields_autoplaced yes)
 		(uuid "2459c9b9-c753-446c-9ec3-db987b4bab26")
 		(property "Reference" "J2"
-			(at 76.2 53.34 0)
+			(at 83.82 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 76.2 55.88 0)
+			(at 83.82 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 76.2 64.77 0)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,7 +10688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 64.77 0)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +10697,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 64.77 0)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,11 +10706,12 @@
 			)
 		)
 		(property "purpous" "external power supply"
-			(at 76.2 58.42 0)
+			(at 83.82 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -10748,7 +10731,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 22.86 140.97 180)
+		(at 24.13 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10757,23 +10740,25 @@
 		(fields_autoplaced yes)
 		(uuid "2800195e-49e7-45e1-a1c3-3125a12b13f6")
 		(property "Reference" "J4"
-			(at 22.86 129.54 0)
+			(at 26.67 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 22.86 132.08 0)
+			(at 26.67 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 22.86 140.97 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10782,7 +10767,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 140.97 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +10776,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 140.97 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,11 +10785,12 @@
 			)
 		)
 		(property "purpous" "heater"
-			(at 22.86 134.62 0)
+			(at 26.67 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -10817,72 +10803,6 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 173.99 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d4da78e-541b-471d-bfe3-b810f0136c0d")
-		(property "Reference" "#PWR033"
-			(at 173.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 173.99 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 173.99 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e62bdd5-32dc-4fb2-bbcc-854940fd4e00")
-		)
-		(instances
-			(project "CoolingBoxWireOrganizer"
-				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11196,72 +11116,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 27.94 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32e0ef99-8a2a-4d75-a991-278c972334f2")
-		(property "Reference" "#PWR053"
-			(at 27.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 27.94 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "247b67ad-2ccb-48fa-bed5-278ae383e549")
-		)
-		(instances
-			(project "CoolingBoxWireOrganizer"
-				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Temperature:MAX31855KASA")
 		(at 157.48 35.56 0)
 		(unit 1)
@@ -11357,7 +11211,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 132.08 90)
+		(at 139.7 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11365,7 +11219,7 @@
 		(dnp no)
 		(uuid "35b27559-72e1-4319-817d-6f94588903c9")
 		(property "Reference" "R7"
-			(at 119.126 133.35 90)
+			(at 135.636 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11373,7 +11227,7 @@
 			)
 		)
 		(property "Value" "1000"
-			(at 123.19 132.08 90)
+			(at 139.7 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11381,7 +11235,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 123.19 133.858 90)
+			(at 139.7 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11390,7 +11244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 132.08 0)
+			(at 139.7 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11399,7 +11253,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 132.08 0)
+			(at 139.7 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11510,7 +11364,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 58.42 0)
+		(at 7.62 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11519,7 +11373,7 @@
 		(fields_autoplaced yes)
 		(uuid "39b37977-1798-409e-a456-678026470453")
 		(property "Reference" "#PWR02"
-			(at 53.34 64.77 0)
+			(at 7.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +11382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 63.5 0)
+			(at 7.62 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11536,7 +11390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 58.42 0)
+			(at 7.62 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11545,7 +11399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 58.42 0)
+			(at 7.62 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11554,7 +11408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 58.42 0)
+			(at 7.62 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11936,6 +11790,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 43.18 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41582b02-5758-4c99-8c4f-f66f97e8480a")
+		(property "Reference" "#PWR013"
+			(at 43.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "external GND"
+			(at 43.18 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a68f918-72e0-4cee-b3a5-ee29fd5babe7")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 149.86 3.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12136,8 +12056,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44e2740f-c279-492f-b0ca-5217c3f9afb0")
+		(property "Reference" "#PWR047"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "external GND"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42669c27-5f42-4a08-8c2b-22afcb22a9a9")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 78.74 113.03 0)
+		(at 85.09 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12145,7 +12131,7 @@
 		(dnp no)
 		(uuid "4a2a660a-b0ae-4f61-87f7-45b8fe6623d3")
 		(property "Reference" "J12"
-			(at 80.01 106.68 0)
+			(at 86.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12153,7 +12139,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Odd_Even"
-			(at 80.01 109.22 0)
+			(at 86.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,7 +12147,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
-			(at 78.74 113.03 0)
+			(at 85.09 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12170,7 +12156,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 113.03 0)
+			(at 85.09 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12179,7 +12165,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 78.74 113.03 0)
+			(at 85.09 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12188,7 +12174,7 @@
 			)
 		)
 		(property "purpose" "peltier polority"
-			(at 79.502 118.11 0)
+			(at 85.852 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12409,6 +12395,72 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 190.5 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f0c6918-ae29-4b75-8508-68e45c265525")
+		(property "Reference" "#PWR049"
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 190.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 190.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80cccfbf-07be-4678-9448-e3430cf728d8")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -12706,16 +12758,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 113.03 0)
+		(at 96.52 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "59db9934-f2b1-4571-9914-bf2e43c3282f")
-		(property "Reference" "#PWR052"
-			(at 92.71 119.38 0)
+		(uuid "578a5375-2690-430b-bc7c-0f58ef61b892")
+		(property "Reference" "#PWR010"
+			(at 96.52 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12723,8 +12775,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 92.71 118.11 0)
+		(property "Value" "external GND"
+			(at 96.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12732,7 +12784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 113.03 0)
+			(at 96.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12741,7 +12793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 113.03 0)
+			(at 96.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12750,7 +12802,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 113.03 0)
+			(at 96.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12759,12 +12811,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b7a1458-47f5-4291-be5a-4f1e9230618e")
+			(uuid "1bbf7a2c-51b8-48b2-9e99-8ada2c431ee8")
 		)
 		(instances
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "#PWR052")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13871,7 +13923,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 20.32 58.42 0)
+		(at 38.1 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13880,7 +13932,7 @@
 		(fields_autoplaced yes)
 		(uuid "86e80825-61cd-4a06-bd0c-04253bdcaea7")
 		(property "Reference" "#PWR01"
-			(at 20.32 62.23 0)
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13889,7 +13941,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 20.32 53.34 0)
+			(at 38.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13897,7 +13949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 58.42 0)
+			(at 38.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13906,7 +13958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 58.42 0)
+			(at 38.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13915,7 +13967,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 20.32 58.42 0)
+			(at 38.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14421,6 +14473,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 19.05 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93b9d7b1-0f3e-49e0-819f-dcc017259e26")
+		(property "Reference" "#PWR048"
+			(at 19.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "external GND"
+			(at 19.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ecc6a18-26c3-4632-8b7b-83f1e66898bd")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 273.05 -6.35 0)
 		(unit 1)
@@ -14706,7 +14824,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 46.99 158.75 180)
+		(at 48.26 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14715,23 +14833,25 @@
 		(fields_autoplaced yes)
 		(uuid "99bc43f6-995b-46ca-8ea2-effa64c580eb")
 		(property "Reference" "J18"
-			(at 46.99 147.32 0)
+			(at 50.8 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 46.99 149.86 0)
+			(at 50.8 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 46.99 158.75 0)
+			(at 48.26 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14740,7 +14860,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 158.75 0)
+			(at 48.26 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14749,7 +14869,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 158.75 0)
+			(at 48.26 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14758,11 +14878,12 @@
 			)
 		)
 		(property "purpous" "AC100V"
-			(at 46.99 152.4 0)
+			(at 50.8 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -14861,72 +14982,6 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1e84d34-92b9-4d86-99ba-0cba1ca6842a")
-		(property "Reference" "#PWR010"
-			(at 88.9 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d9533f9-00c2-4366-bacd-af2b847e7e2b")
-		)
-		(instances
-			(project "CoolingBoxWireOrganizer"
-				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -15844,72 +15899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 52.07 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b84d8fa0-9266-470c-92a6-e22b02f03e94")
-		(property "Reference" "#PWR013"
-			(at 52.07 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88b3d291-0fc2-465c-bd1a-8cc3ff0cf9ab")
-		)
-		(instances
-			(project "CoolingBoxWireOrganizer"
-				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 269.24 76.2 0)
 		(unit 1)
@@ -15980,7 +15969,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 127 0)
+		(at 120.65 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15989,7 +15978,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba55935f-c151-42d1-9501-ee9a761e3c23")
 		(property "Reference" "#PWR035"
-			(at 104.14 133.35 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15998,7 +15987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 132.08 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16006,7 +15995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 127 0)
+			(at 120.65 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16015,7 +16004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 127 0)
+			(at 120.65 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16024,7 +16013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 127 0)
+			(at 120.65 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16202,6 +16191,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfe62960-bedb-4487-8e6b-9acae3820267")
+		(property "Reference" "#PWR028"
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "external GND"
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8242989c-3169-4c95-9a63-10254334710f")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at -25.4 24.13 0)
 		(unit 1)
@@ -16335,7 +16390,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 121.92 0)
+		(at 120.65 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16344,7 +16399,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2483a37-ffb3-4dd3-9f32-d2e74813cd0b")
 		(property "Reference" "#PWR029"
-			(at 104.14 128.27 0)
+			(at 120.65 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16353,7 +16408,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 127 0)
+			(at 120.65 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16361,7 +16416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 121.92 0)
+			(at 120.65 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16370,7 +16425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 121.92 0)
+			(at 120.65 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16379,7 +16434,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 121.92 0)
+			(at 120.65 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16472,7 +16527,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 127 90)
+		(at 139.7 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16480,7 +16535,7 @@
 		(dnp no)
 		(uuid "c31f4519-2d87-4cc1-8a9d-0de823716ab6")
 		(property "Reference" "R6"
-			(at 119.126 128.27 90)
+			(at 135.636 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16488,7 +16543,7 @@
 			)
 		)
 		(property "Value" "1000"
-			(at 123.19 127 90)
+			(at 139.7 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16496,7 +16551,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 123.19 128.778 90)
+			(at 139.7 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16505,7 +16560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 127 0)
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16514,7 +16569,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 127 0)
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16675,7 +16730,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 121.92 90)
+		(at 139.7 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16683,7 +16738,7 @@
 		(dnp no)
 		(uuid "cac79b4b-bad4-4a66-9abd-0223a5f4b090")
 		(property "Reference" "R5"
-			(at 119.126 123.19 90)
+			(at 135.636 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16691,7 +16746,7 @@
 			)
 		)
 		(property "Value" "1000"
-			(at 123.19 121.92 90)
+			(at 139.7 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16699,7 +16754,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 123.19 123.698 90)
+			(at 139.7 117.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16708,7 +16763,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 121.92 0)
+			(at 139.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16717,7 +16772,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 121.92 0)
+			(at 139.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16951,7 +17006,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 132.08 0)
+		(at 120.65 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16960,7 +17015,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce532adc-97f6-4ae9-af8b-30a51d9ede88")
 		(property "Reference" "#PWR036"
-			(at 104.14 138.43 0)
+			(at 120.65 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16969,7 +17024,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 137.16 0)
+			(at 120.65 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,7 +17032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 132.08 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16986,7 +17041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 132.08 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16995,7 +17050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 132.08 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17730,17 +17785,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 81.28 64.77 0)
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at -40.64 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3f12dc9-5178-461a-bacb-787801524171")
-		(property "Reference" "#PWR027"
-			(at 81.28 71.12 0)
+		(uuid "e472231c-a210-48bf-b713-90e94977f13e")
+		(property "Reference" "J24"
+			(at -39.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x02_Odd_Even"
+			(at -39.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
+			(at -40.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17748,16 +17818,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 64.77 0)
+		(property "Datasheet" "~"
+			(at -40.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17765,8 +17827,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 81.28 64.77 0)
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at -40.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17774,22 +17836,30 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 64.77 0)
+		(property "purpose" "test"
+			(at -39.37 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "00dccb05-b3f9-45ff-8a83-f12d2844e0e3")
 		)
 		(pin "1"
-			(uuid "bf05863e-8c20-4314-a120-be39c29bd59f")
+			(uuid "23771aa2-d212-4b9e-8cf2-da6ce92ea043")
+		)
+		(pin "4"
+			(uuid "cbfee839-12ae-483a-a931-b5a6e166f628")
+		)
+		(pin "2"
+			(uuid "6564fb67-bc57-4de3-a19a-121844069d45")
 		)
 		(instances
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
-					(reference "#PWR027")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -18216,7 +18286,7 @@
 	)
 	(symbol
 		(lib_id "my_library:DILB16P-223TLF")
-		(at 139.7 121.92 0)
+		(at 156.21 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18224,7 +18294,7 @@
 		(dnp no)
 		(uuid "f31dabd3-0249-4abe-b567-0d432cff6974")
 		(property "Reference" "J19"
-			(at 139.7 106.68 0)
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18232,7 +18302,7 @@
 			)
 		)
 		(property "Value" "DILB16P-223TLF"
-			(at 139.7 109.22 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18240,7 +18310,7 @@
 			)
 		)
 		(property "Footprint" "my_library:AMPHENOL_DILB16P-223TLF"
-			(at 139.7 121.92 0)
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18250,7 +18320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 121.92 0)
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18259,7 +18329,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 121.92 0)
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18268,7 +18338,7 @@
 			)
 		)
 		(property "PARTREV" "F"
-			(at 139.7 121.92 0)
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18278,7 +18348,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 139.7 121.92 0)
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18288,7 +18358,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "DILB16P-223TLF"
-			(at 139.7 121.92 0)
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18298,7 +18368,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.25 mm"
-			(at 139.7 121.92 0)
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18308,7 +18378,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
-			(at 139.7 121.92 0)
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18318,7 +18388,7 @@
 			)
 		)
 		(property "purpose" "relay socket1"
-			(at 139.954 136.398 0)
+			(at 156.464 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18613,7 +18683,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 116.84 0)
+		(at 120.65 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18622,7 +18692,7 @@
 		(fields_autoplaced yes)
 		(uuid "fad6721e-6275-4b1a-be8a-675e7d32ac1c")
 		(property "Reference" "#PWR026"
-			(at 104.14 123.19 0)
+			(at 120.65 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18631,7 +18701,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 121.92 0)
+			(at 120.65 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18639,7 +18709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 116.84 0)
+			(at 120.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18648,7 +18718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 116.84 0)
+			(at 120.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18657,7 +18727,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 116.84 0)
+			(at 120.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
