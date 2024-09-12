@@ -1,4 +1,4 @@
-23153999890974918
+23162630179559426
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94737,6 +94737,41 @@ Varistor VF
 0
 2
 2
+my_expanded_footprint_library
+Molex_Pico-Clasp_501331-0207_1x02-1MP_P1.00mm_Vertical
+Molex Pico-Clasp series connector, 501331-0207 (http://www.molex.com/pdm_docs/sd/5013310207_sd.pdf), generated with kicad-footprint-generator
+connector Molex Pico-Clasp side entry
+0
+4
+3
+my_expanded_footprint_library
+Molex_Pico-Clasp_501331-0407_1x04-1MP_P1.00mm_Vertical
+Molex Pico-Clasp series connector, 501331-0407 (http://www.molex.com/pdm_docs/sd/5013310207_sd.pdf), generated with kicad-footprint-generator
+connector Molex Pico-Clasp side entry
+0
+6
+5
+my_expanded_footprint_library
+Molex_Pico-Clasp_501331-0807_1x08-1MP_P1.00mm_Vertical
+Molex Pico-Clasp series connector, 501331-0807 (http://www.molex.com/pdm_docs/sd/5013310207_sd.pdf), generated with kicad-footprint-generator
+connector Molex Pico-Clasp side entry
+0
+10
+9
+my_expanded_footprint_library
+R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+my_expanded_footprint_library
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
 my_library
 AMPHENOL_DILB16P-223TLF
 
