@@ -12841,7 +12841,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R20"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "d7a6775e-deae-4f15-a531-c66f17d3a67f")
@@ -12854,7 +12854,7 @@
 			)
 		)
 		(property "Value" "1000"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "B.Fab")
 			(uuid "a1737e3c-5193-4688-83e4-90e8b8262649")
 			(effects
@@ -13010,7 +13010,7 @@
 			(uuid "bd8bfaf6-fd06-4478-925d-b4956ba2ec56")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "81530768-fc6b-45af-b16d-315125a025eb")
 			(effects
@@ -20441,7 +20441,7 @@
 		(descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D3"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "1e8dafd8-a38a-4d9d-958e-00d395939999")
@@ -20454,7 +20454,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "00a73b96-ba2e-45e5-b5ae-84f2255b5b6a")
 			(effects
@@ -20658,7 +20658,7 @@
 			(uuid "74140caa-9f75-4c10-a459-00a4f7ff853c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "93f9c2ec-0c74-4b67-b444-0d5796bd156d")
 			(effects
@@ -21184,6 +21184,19 @@
 		(layer "Edge.Cuts")
 		(uuid "fc6f023c-bddd-455b-8db0-c66cda247f69")
 	)
+	(gr_text "RVD"
+		(at 198.2 122.22 0)
+		(layer "F.SilkS")
+		(uuid "13385b50-b223-47c3-bff2-b507d5068c6c")
+		(effects
+			(font
+				(size 1.5 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "LV"
 		(at 146.51 108.08 0)
 		(layer "F.SilkS")
@@ -21305,6 +21318,19 @@
 		(at 131.13 108.03 0)
 		(layer "F.SilkS")
 		(uuid "dfd48d17-1b93-4624-88da-7c6130c0df27")
+		(effects
+			(font
+				(size 1.5 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "relay"
+		(at 197.99 133.27 0)
+		(layer "F.SilkS")
+		(uuid "e8f2489a-6533-4a8c-a532-e238420fbe4d")
 		(effects
 			(font
 				(size 1.5 1)
