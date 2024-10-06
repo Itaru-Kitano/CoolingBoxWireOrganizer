@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0
 23152274630387950
 =======
@@ -6,6 +7,12 @@
 0
 0
 0
+=======
+3420840109177
+Audio_Module
+Reverb_BTDR-1H
+Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
+>>>>>>> version2.1
 audio belton reverb
 0
 7
@@ -17,6 +24,7 @@ audio belton reverb
 0
 7
 7
+<<<<<<< HEAD
 0
 0
 0
@@ -94800,3 +94808,5 @@ Connector
 0
 16
 16
+=======
+>>>>>>> version2.1

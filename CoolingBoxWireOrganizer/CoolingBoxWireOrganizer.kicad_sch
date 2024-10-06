@@ -5382,6 +5382,12 @@
 		(uuid "65d99d23-dda3-40f8-92a8-a34162135397")
 	)
 	(junction
+		(at 237.49 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66f7eddb-dafa-4cfd-b9cf-45571fc2f7c4")
+	)
+	(junction
 		(at 149.86 -3.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5404,6 +5410,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1c63ce3-b24b-4b07-b28a-bfa0c66d34c3")
+	)
+	(junction
+		(at 237.49 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4c83619-7e89-4cf6-ba77-a82b8e27e419")
 	)
 	(junction
 		(at 214.63 233.68)
@@ -5639,6 +5651,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 219.71) (xy 237.49 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398db65a-f614-44c4-a0f1-2c867bebbc16")
+	)
+	(wire
+		(pts
 			(xy 36.83 78.74) (xy 57.15 78.74)
 		)
 		(stroke
@@ -5716,6 +5738,16 @@
 			(type default)
 		)
 		(uuid "4a23fe2b-07ac-4df0-a474-3ed3d427e5ff")
+	)
+	(wire
+		(pts
+			(xy 242.57 242.57) (xy 237.49 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd27e74-0800-4b57-ae0c-885ba41e4556")
 	)
 	(wire
 		(pts
@@ -6039,6 +6071,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 219.71) (xy 247.65 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3adad8e-f1c8-4a6d-8f29-aa170464f69d")
+	)
+	(wire
+		(pts
 			(xy 82.55 87.63) (xy 92.71 87.63)
 		)
 		(stroke
@@ -6199,6 +6241,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 234.95) (xy 237.49 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d361af03-c9be-4273-a448-d3361ba19d01")
+	)
+	(wire
+		(pts
 			(xy 148.59 78.74) (xy 148.59 80.01)
 		)
 		(stroke
@@ -6236,6 +6288,16 @@
 			(type default)
 		)
 		(uuid "dea8a6d7-1b9c-4286-95d9-07da81e2a35b")
+	)
+	(wire
+		(pts
+			(xy 237.49 231.14) (xy 237.49 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dedde6a2-d7e3-47ad-9727-7199f8b5328d")
 	)
 	(wire
 		(pts
@@ -6306,6 +6368,16 @@
 			(type default)
 		)
 		(uuid "f20c600d-733a-4fc7-8fd1-62be7724f067")
+	)
+	(wire
+		(pts
+			(xy 237.49 219.71) (xy 237.49 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c2a501-8244-42a4-8075-e7d2b87dc95f")
 	)
 	(wire
 		(pts
@@ -6929,6 +7001,28 @@
 			)
 		)
 	)
+	(global_label "sink thermocouple minus"
+		(shape input)
+		(at 224.79 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e161520-05a8-43f5-a5ea-bbc981e68a0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.5542 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MAX_GND"
 		(shape input)
 		(at 157.48 45.72 0)
@@ -7039,6 +7133,28 @@
 			)
 		)
 	)
+	(global_label "head thermocouple plus"
+		(shape input)
+		(at 224.79 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46a87c73-7432-4430-bdab-5f385ff86158")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.4615 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Chiller.Alarm.GND"
 		(shape input)
 		(at 194.31 222.25 180)
@@ -7074,6 +7190,28 @@
 		(uuid "492a63bd-8521-4b4f-8593-a0a0e77d4664")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 12.3758 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "head thermocouple minus"
+		(shape input)
+		(at 224.79 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "498c605b-90b6-4d38-8f41-7f8c6b60e333")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.8286 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,6 +7283,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "case thermocouple plus"
+		(shape input)
+		(at 224.79 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d6b10e8-bdfc-4331-8a5d-f1c07cca5c2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.6428 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7303,28 +7463,6 @@
 			)
 		)
 	)
-	(global_label "sink thermocouple minus"
-		(shape input)
-		(at 224.79 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e40c846-4cd7-4ce9-b13e-8f92bc1adbc9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.5542 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Chiller.Temp.Sig"
 		(shape input)
 		(at 55.88 97.79 0)
@@ -7437,7 +7575,7 @@
 	)
 	(global_label "to chiller alarm relay"
 		(shape input)
-		(at 207.01 219.71 0)
+		(at 247.65 219.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7447,7 +7585,7 @@
 		)
 		(uuid "6977a92e-0b12-4da0-b92c-dea9f4ecd3ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9196 219.71 0)
+			(at 271.5596 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,6 +7749,28 @@
 			)
 		)
 	)
+	(global_label "SSR.GND"
+		(shape input)
+		(at 237.49 242.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7cddcf06-a27e-4605-8473-89d7d3120097")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.49 253.7195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Pel_Pos"
 		(shape input)
 		(at 39.37 26.67 270)
@@ -7743,9 +7903,9 @@
 			)
 		)
 	)
-	(global_label "head thermocouple minus"
+	(global_label "sink thermocouple plus"
 		(shape input)
-		(at 224.79 120.65 180)
+		(at 224.79 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7753,9 +7913,9 @@
 			)
 			(justify right)
 		)
-		(uuid "85a3433c-70a5-49c3-97c2-f37ef62b40b9")
+		(uuid "850083d9-840e-4e09-be46-0f8dc5f652e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8286 120.65 0)
+			(at 199.1871 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,6 +8167,28 @@
 			)
 		)
 	)
+	(global_label "chiller thermocouple minus"
+		(shape input)
+		(at 224.79 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0120f11-0e28-4edf-91a4-304202493a67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.3166 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "to LV emergency circuit"
 		(shape input)
 		(at 220.98 144.78 0)
@@ -8139,28 +8321,6 @@
 			)
 		)
 	)
-	(global_label "case thermocouple minus"
-		(shape input)
-		(at 224.79 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa16d92c-5d7f-4aab-91ae-790ee4ae8343")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.0099 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Pel_Pos"
 		(shape input)
 		(at 128.27 175.26 180)
@@ -8174,28 +8334,6 @@
 		(uuid "ab7fe5cc-50b5-4e67-b1fa-214597779ac6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 117.8463 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "head thermocouple plus"
-		(shape input)
-		(at 224.79 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac2b6300-573d-4189-9b02-feaf44e1de49")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.4615 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,7 +8433,7 @@
 	)
 	(global_label "chiller thermocouple plus"
 		(shape input)
-		(at 224.79 107.95 180)
+		(at 224.79 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8303,31 +8441,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b3109c66-93aa-4fcc-8a85-477d45f41f81")
+		(uuid "b25ea862-0e0f-4c59-aa9d-ef93294d588a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9495 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "sink thermocouple plus"
-		(shape input)
-		(at 224.79 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b497db8f-818e-4b3d-aaee-358a53d3c3d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.1871 113.03 0)
+			(at 196.9495 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,28 +8563,6 @@
 			)
 		)
 	)
-	(global_label "case thermocouple plus"
-		(shape input)
-		(at 224.79 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c2d7923a-ad17-4276-8de5-e772ca15d9b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.6428 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Spare.Digital2"
 		(shape input)
 		(at 274.32 119.38 0)
@@ -8575,28 +8669,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "chiller thermocouple minus"
-		(shape input)
-		(at 224.79 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7b67c13-d0c0-4331-bf0c-b0a11219dabe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.3166 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8949,6 +9021,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "case thermocouple minus"
+		(shape input)
+		(at 224.79 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9f2d805-0d28-40fc-b2d4-e3ed893b3f67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.0099 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9797,6 +9891,92 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 237.49 238.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14dda894-a76c-4d99-87ea-a001279880cf")
+		(property "Reference" "D3"
+			(at 243.84 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 241.3 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 237.49 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 237.49 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b5c7521-ebb9-475c-bb7b-5e09aa1d815b")
+		)
+		(pin "1"
+			(uuid "61dbfd68-d43d-4989-87c7-4579d05c5ea9")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -12366,6 +12546,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 242.57 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64250700-cf23-4e2d-ba73-d6b74d5d0e53")
+		(property "Reference" "D5"
+			(at 248.92 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 246.38 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 242.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 242.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 242.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dea330b8-e6a7-4b54-9e12-cde8106ba3ba")
+		)
+		(pin "1"
+			(uuid "63fadf28-ec16-4e33-a1d3-62f5022ef9ba")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 180.34 41.91 0)
 		(mirror x)
@@ -14457,6 +14723,73 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 227.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af8d3428-6cde-4ca7-8534-02b3931fbfab")
+		(property "Reference" "R20"
+			(at 238.76 231.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000"
+			(at 237.49 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 239.268 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adf8b20a-f0bd-4ee5-ac40-cb4cfae4ff35")
+		)
+		(pin "2"
+			(uuid "667ac59e-ea8f-4fa5-b369-f0b4406cff90")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R20")
 					(unit 1)
 				)
 			)
