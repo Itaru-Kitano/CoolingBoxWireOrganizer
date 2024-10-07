@@ -1,18 +1,16 @@
-0
-0
-23152274630387950
+<<<<<<< HEAD
 =======
 23162630179559426
-0
+>>>>>>> version2.1
 0
 0
 0
 =======
 3420840109177
 Audio_Module
-0
-0
-0
+Reverb_BTDR-1H
+Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
+>>>>>>> version2.1
 audio belton reverb
 0
 7
@@ -24,7 +22,7 @@ audio belton reverb
 0
 7
 7
-0
+<<<<<<< HEAD
 0
 0
 0
@@ -94797,13 +94795,16 @@ AMPHENOL_DILB16P-223TLF
 my_library
 G3VM-41AR
 
-0
+G3VM-41AR 
 0
 4
 4
 my_library
 PTSM 0,57-2,5-V THR WH R44
 1814621
-0
+Connector
 0
 16
+16
+=======
+>>>>>>> version2.1
