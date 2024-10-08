@@ -21303,8 +21303,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Arduino\ncontrol"
-		(at 182.39 148.32 0)
+	(gr_text "Arduino\nreset"
+		(at 185.35 148.2 0)
 		(layer "F.SilkS")
 		(uuid "ae916481-c3e7-487f-bf43-85a3b99025e1")
 		(effects
@@ -21313,7 +21313,7 @@
 				(thickness 0.25)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "Thermocouples"
