@@ -21290,7 +21290,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "power supply"
+	(gr_text "Power supply"
 		(at 167.19 148.67 0)
 		(layer "F.SilkS")
 		(uuid "a73cd6d7-7257-488a-bbd2-c7647c150aac")
@@ -21342,7 +21342,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "relay"
+	(gr_text "Relay"
 		(at 197.99 134.42 0)
 		(layer "F.SilkS")
 		(uuid "e8f2489a-6533-4a8c-a532-e238420fbe4d")
