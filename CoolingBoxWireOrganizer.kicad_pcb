@@ -9563,7 +9563,7 @@
 			(uuid "f241a5a9-0edd-48b9-9a41-a313a46765fc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 2.54 -90)
+			(at 1.27 2.54 270)
 			(layer "F.Fab")
 			(uuid "d761730c-c8bb-4748-b3af-50509ec6841c")
 			(effects

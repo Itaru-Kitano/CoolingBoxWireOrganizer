@@ -1038,6 +1038,203 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016) hide)
@@ -5340,6 +5537,12 @@
 		(uuid "160213ff-e744-4304-8580-20c7336fde00")
 	)
 	(junction
+		(at 195.58 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ab7db98-9efd-4818-99ac-67ab31c193ce")
+	)
+	(junction
 		(at 306.07 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5364,6 +5567,12 @@
 		(uuid "43dbd74a-d645-4e03-be8a-d12043165d04")
 	)
 	(junction
+		(at 191.77 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46e05fdf-21d0-4d21-b3e2-b306265c67a0")
+	)
+	(junction
 		(at 201.93 2.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5382,7 +5591,7 @@
 		(uuid "65d99d23-dda3-40f8-92a8-a34162135397")
 	)
 	(junction
-		(at 237.49 234.95)
+		(at 294.64 275.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66f7eddb-dafa-4cfd-b9cf-45571fc2f7c4")
@@ -5412,13 +5621,19 @@
 		(uuid "c1c63ce3-b24b-4b07-b28a-bfa0c66d34c3")
 	)
 	(junction
-		(at 237.49 219.71)
+		(at 294.64 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4c83619-7e89-4cf6-ba77-a82b8e27e419")
 	)
 	(junction
-		(at 214.63 233.68)
+		(at 195.58 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd29603f-844b-4991-ac41-79ea91d00305")
+	)
+	(junction
+		(at 271.78 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d013795c-2e3e-47eb-aac2-3805a560a031")
@@ -5511,6 +5726,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 241.3) (xy 195.58 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a56fac1-d578-4ced-adb0-ab42d1c930f7")
+	)
+	(wire
+		(pts
 			(xy 137.16 31.75) (xy 143.51 31.75)
 		)
 		(stroke
@@ -5568,6 +5793,16 @@
 			(type default)
 		)
 		(uuid "28406848-fe53-4e88-8f33-90a0aefa9492")
+	)
+	(wire
+		(pts
+			(xy 252.73 266.7) (xy 264.16 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284b2ef9-8ca0-4df8-b33f-6fd4c1a985e5")
 	)
 	(wire
 		(pts
@@ -5651,7 +5886,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 219.71) (xy 237.49 219.71)
+			(xy 252.73 260.35) (xy 294.64 260.35)
 		)
 		(stroke
 			(width 0)
@@ -5691,7 +5926,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 224.79) (xy 207.01 233.68)
+			(xy 252.73 265.43) (xy 252.73 266.7)
 		)
 		(stroke
 			(width 0)
@@ -5741,13 +5976,33 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 242.57) (xy 237.49 242.57)
+			(xy 299.72 283.21) (xy 294.64 283.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4bd27e74-0800-4b57-ae0c-885ba41e4556")
+	)
+	(wire
+		(pts
+			(xy 252.73 262.89) (xy 264.16 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d44385a-793d-4b4c-86ad-c667b0606ec8")
+	)
+	(wire
+		(pts
+			(xy 264.16 266.7) (xy 264.16 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f484849-42d3-4d99-8498-e8f52139d026")
 	)
 	(wire
 		(pts
@@ -5931,6 +6186,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 241.3) (xy 195.58 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a22f8f-ee9d-4e6f-8451-f1c7c9bdc103")
+	)
+	(wire
+		(pts
 			(xy 105.41 162.56) (xy 120.65 162.56)
 		)
 		(stroke
@@ -5948,6 +6213,16 @@
 			(type default)
 		)
 		(uuid "778c2d4f-0e9c-44e4-9ad3-45af2736fb64")
+	)
+	(wire
+		(pts
+			(xy 195.58 241.3) (xy 205.74 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbf57ca-8ddc-41d3-8a0b-3043e7024f03")
 	)
 	(wire
 		(pts
@@ -5971,7 +6246,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 233.68) (xy 214.63 236.22)
+			(xy 271.78 274.32) (xy 271.78 276.86)
 		)
 		(stroke
 			(width 0)
@@ -6071,7 +6346,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 219.71) (xy 247.65 219.71)
+			(xy 294.64 260.35) (xy 304.8 260.35)
 		)
 		(stroke
 			(width 0)
@@ -6091,6 +6366,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 256.54) (xy 195.58 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0e9177-6f9a-44f7-8f4b-1a1965b58c2e")
+	)
+	(wire
+		(pts
 			(xy 148.59 80.01) (xy 144.78 80.01)
 		)
 		(stroke
@@ -6098,6 +6383,16 @@
 			(type default)
 		)
 		(uuid "ad9d4b84-954e-4898-972f-db12a7c030ef")
+	)
+	(wire
+		(pts
+			(xy 195.58 252.73) (xy 195.58 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af210ee5-b97e-4570-8f4b-6f9652c26b8f")
 	)
 	(wire
 		(pts
@@ -6148,6 +6443,16 @@
 			(type default)
 		)
 		(uuid "b7a33333-7531-4b7a-a36d-da53c1104de9")
+	)
+	(wire
+		(pts
+			(xy 200.66 264.16) (xy 195.58 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b984a345-010c-4f01-8914-57a06d77354e")
 	)
 	(wire
 		(pts
@@ -6221,6 +6526,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 290.83) (xy 184.15 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d020bc34-28aa-4d0a-9a48-d252757763c6")
+	)
+	(wire
+		(pts
 			(xy 17.78 78.74) (xy 24.13 78.74)
 		)
 		(stroke
@@ -6231,7 +6546,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 234.95) (xy 237.49 234.95)
+			(xy 299.72 275.59) (xy 294.64 275.59)
 		)
 		(stroke
 			(width 0)
@@ -6281,7 +6596,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 231.14) (xy 237.49 234.95)
+			(xy 294.64 271.78) (xy 294.64 275.59)
 		)
 		(stroke
 			(width 0)
@@ -6361,7 +6676,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 219.71) (xy 237.49 223.52)
+			(xy 294.64 260.35) (xy 294.64 264.16)
 		)
 		(stroke
 			(width 0)
@@ -6388,6 +6703,16 @@
 			(type default)
 		)
 		(uuid "f80dab1d-d67e-4ce6-a604-ea312a927a94")
+	)
+	(wire
+		(pts
+			(xy 191.77 298.45) (xy 191.77 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89699ca-2c8b-4151-8589-534a4ac88750")
 	)
 	(wire
 		(pts
@@ -6507,6 +6832,28 @@
 			)
 		)
 	)
+	(global_label "Chiller.Alarm.input"
+		(shape input)
+		(at 184.15 260.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ff42d66-201e-4a42-bffc-eac540e2c282")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.15 280.9336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "to LV emergency circuit"
 		(shape input)
 		(at 168.91 113.03 0)
@@ -6613,6 +6960,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SSR.GND"
+		(shape input)
+		(at 195.58 264.16 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "217c4980-4174-436b-b520-c24a35eecf69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 275.3095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6795,7 +7164,7 @@
 	)
 	(global_label "SSR.GND"
 		(shape input)
-		(at 194.31 219.71 180)
+		(at 240.03 260.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6805,7 +7174,7 @@
 		)
 		(uuid "336441a3-0175-4ffa-9ae7-a1f09a50eb42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.1605 219.71 0)
+			(at 228.8805 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6833,6 +7202,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "to chiller alarm relay"
+		(shape input)
+		(at 205.74 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34743e02-4835-4c4a-badf-c9d9f32882e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.6496 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7147,7 +7538,7 @@
 	)
 	(global_label "Chiller.Alarm.GND"
 		(shape input)
-		(at 194.31 222.25 180)
+		(at 240.03 262.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7157,7 +7548,7 @@
 		)
 		(uuid "46de5496-cbcd-463b-907c-e2ae28cdbd63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.6334 222.25 0)
+			(at 220.3534 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,6 +7800,28 @@
 			)
 		)
 	)
+	(global_label "Chiller.Alarm.GND"
+		(shape input)
+		(at 181.61 260.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58b7fb37-0bb7-47c0-a41a-5a438b85e738")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.61 280.0266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Spare.Analog1"
 		(shape input)
 		(at 24.13 81.28 180)
@@ -7422,6 +7835,28 @@
 		(uuid "59b4fcac-ff64-4309-9451-a59b467623bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 7.5984 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SSR.GND"
+		(shape input)
+		(at 181.61 241.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59fc43e0-7b71-4438-abf4-46620015d80f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.4605 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +8000,7 @@
 	)
 	(global_label "to chiller alarm relay"
 		(shape input)
-		(at 247.65 219.71 0)
+		(at 304.8 260.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7575,7 +8010,7 @@
 		)
 		(uuid "6977a92e-0b12-4da0-b92c-dea9f4ecd3ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.5596 219.71 0)
+			(at 328.7096 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +8176,7 @@
 	)
 	(global_label "SSR.GND"
 		(shape input)
-		(at 237.49 242.57 270)
+		(at 294.64 283.21 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7751,7 +8186,7 @@
 		)
 		(uuid "7cddcf06-a27e-4605-8473-89d7d3120097")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 253.7195 90)
+			(at 294.64 294.3595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,6 +8319,28 @@
 		(uuid "808196d3-eeee-4152-ad29-30b2d08431d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.8486 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Chiller.Alarm.Sig"
+		(shape input)
+		(at 191.77 300.99 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "838e6fa7-aadd-4b6f-806f-38f59fec06cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.77 319.7594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +9122,7 @@
 	)
 	(global_label "Chiller.Alarm.input"
 		(shape input)
-		(at 207.01 222.25 0)
+		(at 264.16 262.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8675,7 +9132,7 @@
 		)
 		(uuid "c7deb991-9802-435e-b4f2-4af7d6930e5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5936 222.25 0)
+			(at 284.7436 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8819,7 +9276,7 @@
 	)
 	(global_label "Chiller.Alarm.Sig"
 		(shape input)
-		(at 214.63 236.22 270)
+		(at 271.78 276.86 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8829,7 +9286,7 @@
 		)
 		(uuid "d71bfbbb-a59f-499f-b6aa-b777e716b7e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 254.9894 90)
+			(at 271.78 295.6294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,7 +10345,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 237.49 238.76 270)
+		(at 294.64 279.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9897,7 +10354,7 @@
 		(fields_autoplaced yes)
 		(uuid "14dda894-a76c-4d99-87ea-a001279880cf")
 		(property "Reference" "D3"
-			(at 243.84 238.76 0)
+			(at 300.99 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +10362,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 241.3 238.76 0)
+			(at 298.45 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9913,7 +10370,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 237.49 238.76 0)
+			(at 294.64 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +10379,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 238.76 0)
+			(at 294.64 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +10388,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 237.49 238.76 0)
+			(at 294.64 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,7 +10397,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 237.49 238.76 0)
+			(at 294.64 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +10406,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 237.49 238.76 0)
+			(at 294.64 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,6 +10857,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 200.66 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e3ba4af-8ece-4ae3-8c2c-050c08d63f6b")
+		(property "Reference" "D?"
+			(at 207.01 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 204.47 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 200.66 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 200.66 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 200.66 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 200.66 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18160cbc-0969-4511-9584-5a3ed8b8a92b")
+		)
+		(pin "1"
+			(uuid "a7ffb9b4-6603-484b-ad38-74831656d9de")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 26.67 176.53 0)
 		(unit 1)
@@ -10539,6 +11082,73 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 248.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25f20d78-c9ef-41d2-a993-03a348f4e93a")
+		(property "Reference" "R?"
+			(at 196.85 252.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000"
+			(at 195.58 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 197.358 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03a54e83-ba89-4eb4-a3ee-c40d6aa44fff")
+		)
+		(pin "2"
+			(uuid "a68c2515-2f24-4022-9777-384fc11b0da4")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11535,7 +12145,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 233.68 270)
+		(at 275.59 274.32 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11545,7 +12155,7 @@
 		(fields_autoplaced yes)
 		(uuid "428f1dde-5691-43b7-b5c8-c8ce02ed849b")
 		(property "Reference" "R2"
-			(at 218.44 227.33 90)
+			(at 275.59 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11553,7 +12163,7 @@
 			)
 		)
 		(property "Value" "3900"
-			(at 218.44 229.87 90)
+			(at 275.59 270.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11561,7 +12171,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 218.44 235.458 90)
+			(at 275.59 276.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11570,7 +12180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 233.68 0)
+			(at 275.59 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11579,7 +12189,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 233.68 0)
+			(at 275.59 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12603,7 +13213,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 242.57 238.76 90)
+		(at 299.72 279.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12612,7 +13222,7 @@
 		(fields_autoplaced yes)
 		(uuid "64250700-cf23-4e2d-ba73-d6b74d5d0e53")
 		(property "Reference" "D5"
-			(at 248.92 238.76 0)
+			(at 306.07 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12620,7 +13230,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 246.38 238.76 0)
+			(at 303.53 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12628,7 +13238,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 242.57 238.76 0)
+			(at 299.72 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12637,7 +13247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 238.76 0)
+			(at 299.72 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12646,7 +13256,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 242.57 238.76 0)
+			(at 299.72 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12655,7 +13265,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 242.57 238.76 0)
+			(at 299.72 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12664,7 +13274,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 242.57 238.76 0)
+			(at 299.72 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12958,8 +13568,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 181.61 285.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a6acd41-e266-4f24-bc5e-c96dbeed2129")
+		(property "Reference" "J?"
+			(at 186.69 284.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 186.69 287.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8241db6a-23af-4902-9641-d7a240548d23")
+		)
+		(pin "1"
+			(uuid "7e37eaa9-e571-411a-85c1-54e46f2d4aa1")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 194.31 224.79 0)
+		(at 240.03 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12968,7 +13648,7 @@
 		(fields_autoplaced yes)
 		(uuid "72e16506-41a8-47b6-b4d4-464527f7c38d")
 		(property "Reference" "#PWR034"
-			(at 194.31 231.14 0)
+			(at 240.03 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12977,7 +13657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 229.87 0)
+			(at 240.03 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12985,7 +13665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 224.79 0)
+			(at 240.03 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12994,7 +13674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 224.79 0)
+			(at 240.03 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13003,7 +13683,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 224.79 0)
+			(at 240.03 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13992,6 +14672,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 181.61 290.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95729779-764d-4b67-b29d-30b031bf10d3")
+		(property "Reference" "#PWR031"
+			(at 181.61 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ad369f2-412a-4691-b243-812a0f04001f")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.96 298.45 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9641e20f-739a-4758-b829-739d6f20959a")
+		(property "Reference" "R?"
+			(at 187.96 292.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10000"
+			(at 187.96 294.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 187.96 300.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7070e87c-3579-4b08-ae42-ceef0896f6fd")
+		)
+		(pin "2"
+			(uuid "b41c3968-b6ab-4181-92f6-fa04367d80db")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 321.31 78.74 180)
 		(unit 1)
@@ -14651,7 +15466,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 233.68 270)
+		(at 267.97 274.32 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14661,7 +15476,7 @@
 		(fields_autoplaced yes)
 		(uuid "af88d87a-0c7e-4ff4-820a-873913ce2d30")
 		(property "Reference" "R1"
-			(at 210.82 227.33 90)
+			(at 267.97 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14669,7 +15484,7 @@
 			)
 		)
 		(property "Value" "10000"
-			(at 210.82 229.87 90)
+			(at 267.97 270.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14677,7 +15492,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 210.82 235.458 90)
+			(at 267.97 276.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14686,7 +15501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 233.68 0)
+			(at 267.97 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14695,7 +15510,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 210.82 233.68 0)
+			(at 267.97 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14720,7 +15535,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 237.49 227.33 180)
+		(at 294.64 267.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14728,7 +15543,7 @@
 		(dnp no)
 		(uuid "af8d3428-6cde-4ca7-8534-02b3931fbfab")
 		(property "Reference" "R20"
-			(at 238.76 231.394 90)
+			(at 295.91 272.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14736,7 +15551,7 @@
 			)
 		)
 		(property "Value" "1000"
-			(at 237.49 227.33 90)
+			(at 294.64 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14744,7 +15559,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 239.268 227.33 90)
+			(at 296.418 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14753,7 +15568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 227.33 0)
+			(at 294.64 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14762,7 +15577,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 237.49 227.33 0)
+			(at 294.64 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15020,6 +15835,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 195.58 260.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7022947-066c-47eb-8b65-85d47affe7ee")
+		(property "Reference" "D?"
+			(at 201.93 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 199.39 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 195.58 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 195.58 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 195.58 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 195.58 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34f8919d-641b-4c95-b6c1-277059c0b56b")
+		)
+		(pin "1"
+			(uuid "507ec89a-cfc6-4142-9433-bbe04f2168e3")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 189.23 110.49 0)
 		(unit 1)
@@ -15149,6 +16050,75 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 298.45 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba4909bc-2fa2-43d2-8d3e-4db416f319c3")
+		(property "Reference" "R?"
+			(at 195.58 292.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3900"
+			(at 195.58 294.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 195.58 300.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df33f52a-cc39-4ef4-be73-20f67bb9fd38")
+		)
+		(pin "2"
+			(uuid "32315ded-637d-4b9a-99d8-448672bdb92f")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -15656,6 +16626,147 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 298.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c400ed49-8dc5-449c-9760-c2b460b44b3a")
+		(property "Reference" "#PWR058"
+			(at 199.39 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52ae632e-21d9-4366-99a6-b050571eebe8")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 181.61 255.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5efc6a2-f3f9-4e49-b7c2-0ca61295b5d3")
+		(property "Reference" "J?"
+			(at 182.88 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 182.88 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "442853c6-64b9-456e-9557-505180817f45")
+		)
+		(pin "2"
+			(uuid "c9e9bf4d-89b1-4315-823a-70376dcb79d5")
+		)
+		(pin "1"
+			(uuid "c8b31c5d-cf96-4ead-8276-6bc8ad7f8c04")
+		)
+		(pin "4"
+			(uuid "819eafd4-6651-4a86-b48a-3dff93651cb2")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -16421,7 +17532,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 199.39 222.25 0)
+		(at 245.11 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16429,7 +17540,7 @@
 		(dnp no)
 		(uuid "d2f559b2-2b87-4e09-95de-cb9ee1c2f255")
 		(property "Reference" "J20"
-			(at 200.66 213.36 0)
+			(at 246.38 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16437,7 +17548,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 200.66 215.9 0)
+			(at 246.38 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16445,7 +17556,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 199.39 222.25 0)
+			(at 245.11 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16454,7 +17565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 222.25 0)
+			(at 245.11 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16463,7 +17574,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 199.39 222.25 0)
+			(at 245.11 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16567,7 +17678,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 233.68 0)
+		(at 279.4 274.32 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16577,7 +17688,7 @@
 		(fields_autoplaced yes)
 		(uuid "d458b812-6833-45f1-b575-a4811ffa8ed7")
 		(property "Reference" "#PWR032"
-			(at 222.25 240.03 0)
+			(at 279.4 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16586,7 +17697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 238.76 0)
+			(at 279.4 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16594,7 +17705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 233.68 0)
+			(at 279.4 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16603,7 +17714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 233.68 0)
+			(at 279.4 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16612,7 +17723,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 233.68 0)
+			(at 279.4 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16708,6 +17819,76 @@
 			(project "CoolingBoxWireOrganizer"
 				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 184.15 246.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d718d359-be3c-4978-8401-17dc9fee1f42")
+		(property "Reference" "J?"
+			(at 186.69 245.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 186.69 247.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c95025c-fbb8-4363-b2a2-a681c1b5bc38")
+		)
+		(pin "1"
+			(uuid "fd8bbbf4-f077-4bd2-b7db-56c40b63b4f1")
+		)
+		(instances
+			(project "CoolingBoxWireOrganizer"
+				(path "/ff9ba137-88a9-4b8b-9432-755c6a86600a"
+					(reference "J?")
 					(unit 1)
 				)
 			)
